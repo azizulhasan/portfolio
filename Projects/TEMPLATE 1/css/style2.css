@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-'] {
+    float: left;
+    /*border: 1px solid gray;*/
+}
+
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.menu{ height: 50px; }
+.slider{ height: 400px; }
+.content-one{ height: 200px; }
+.content-two{ height: 650px; }
+.footer{ height: 200px; }
+.apartment{ height: 250px}
+
+nav{
+    background-color: whitesmoke;
+    min-height: 50px;
+    padding: 5px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+    transition: 1.2s;
+}
+nav ul li a:hover{
+    background-color: lime;
+    color: white;
+    border-radius: 10px;
+}
+
+.slider-section{
+    background-image: url("../images/slider1.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%
+}
+
+.apartment{
+    background-color:rgba(0,0,0,.6);
+    margin-top: 100px;
+    margin-left: 75px;
+
+}
+.apartment h2, p, a,a{
+    color:white;
+}
+.apartment h2,p{
+    padding: 6px 2px 9px 15px ;
+
+}
+.apartment hr{
+    margin-top: 10px;
+}
+.a1{margin-left: 10px;}
+.a2{margin-top: 10px;
+    float: right;
+}
+.feature-section{padding: 45px 0 ;
+}
+.feature p ,h3{
+    background-color: whitesmoke;
+    color: black;
+}
+.feature{background-color: whitesmoke}
+.feature h3{padding-left: 12px}
+
+.icon {
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+
+}
+
+.pt-20{ padding-top: 15px;}
+.pl-25{ padding-left: 20px;}
+.pr1-5{ padding-right: 10px}
+.text{ text-align: justify}
+
+
+
+.img-responsive{
+    width: 100%;
+}
+
+.text-black{
+    color:black;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.heading{ padding-left: 5px;}
+
+.mt-10{margin-top: 10px;}
+.mb-10{margin-bottom: 10px;}
+.mr-80{ margin-right: 70px;
+
+    color: black;
+}
+.p-10{ padding: 10px;}
+.pr-5{ padding-right: 5px}
+
+.icon1{color: black;}
+.thumnil{
+    background-color: whitesmoke;
+    border-bottom: 3px solid green;
+}
+
+.top-content{
+    background-color: forestgreen;
+    color: white;
+    min-height: 350px;
+    margin-left: 5px;
+}
+.top-content h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.form-input {
+
+    width: 80%;
+    height: 30px;
+    margin-left: 15px;
+}
+.lebel{
+    /*margin-top: 20px;*/
+    margin-left: 15px;
+    display: block;
+
+}
+.form-group{
+    margin-top: 8px;
+    display: block;
+}
+.submit-btn{
+    height: 30px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    margin-left: 30px;}
+
+.inner-content{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.content-color{
+    color: black;
+    padding-bottom: 0;
+
+}
+.img-responsive{
+    width: 100%;
+}
+.h-content{
+    padding-left: 15px;
+}
+
+.img1-responsive{
+    height: 100%;
+    width: 100%;
+}
+.footer-text{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color: white;
+
+}
+.footer1{
+    background-repeat:no-repeat ;
+    background-image: url("../images/footer.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+/*media query*/
+
+
+@media screen and ( max-width: 576px){
+    [class*='col-']{
+        width: 100%;
+    }
+   .pr-10{padding-right: 70px}
+   .width{width: 33.33%}
+   .mt-50{ margin-top: 50px}
+   .position-sticky{
+       position: sticky;
+       top: 0;
+       background-color: whitesmoke;
+       color: white;
+   }
+
+}
+@media screen and (min-width: 577px) and (max-width: 920px){
+
+    .col-t1{ width: 8.33%; }
+    .col-t2{ width: 16.66%; }
+    .col-t3{ width: 25%; }
+    .col-t4{ width: 33.33%; }
+    .col-t5{ width: 41.66%; }
+    .col-t6{ width: 50%; }
+    .col-t7{ width: 58.33%; }
+    .col-t8{ width: 66.66%; }
+    .col-t9{ width: 75%; }
+    .col-t10{ width: 83.33%; }
+    .col-t11{ width: 91.66%; }
+    .col-t12{ width: 100%; }
+
+
+    .mt-50{ margin-top: 50px}
+    .position-sticky{
+        position: sticky;
+        top: 0;
+        background-color: whitesmoke;
+        color: white;
+    }
+
+
+    .position-relative{
+
+
+    }
+    .position-absolute{
+
+
+    }
+}

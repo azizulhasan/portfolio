@@ -1,0 +1,338 @@
+body,h1, h2, h3, h4, h5, h6, p, span, a{
+  
+       /*font-family: 'Tangerine', serif;*/
+       font-family: ' Libre+Baskerville', serif;
+      
+      
+}
+
+
+  {
+        
+      }
+
+ 
+ {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+
+
+
+.img-responsive{
+    width: 100%;
+    height: 640px;
+}
+.my-caption{
+    background:rgba(0,0,0,0.4);
+    margin-bottom: 90px;
+    padding:30px;
+    min-height: 200px;
+}
+.img-size{
+    height: 200px;
+    width: 200px;
+}
+.b-b-3{
+    border-bottom: 4px solid yellow;
+    letter-spacing: 4px;
+    font-family: 'Monoton', cursive;
+       /* font-size: 35px;*/
+}
+a.navbar-brand.b-b-3:hover {
+    color:yellow;
+}
+.navbar-nav{
+    list-style-type: disc;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 2px;
+}
+
+.navbar-nav li:hover{
+    color: whitesmoke;
+}
+.bg-mybg{
+    /*background: radial-gradient(#333, #000);*/
+  
+    background: rgba(0,0,0,.1);
+}
+
+li.nav-itemm.mr-4 {
+    list-style-type: none;
+}
+.slider-heading {
+    letter-spacing: 5px;
+    font-size: 45px;
+    text-shadow: 4px 4px #04091f;
+    line-height: 1.5;
+    color: darkgray;
+    font-family: 'Charm', cursive;
+}
+.slider-heading2 {
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-shadow: 2px 2px #dee1ec;
+    color: darkgray;
+}
+
+.size-circle{
+    font-size: 8px;
+}
+.border-own{
+    border-left: 5px solid yellow;
+}
+/*.bb-1{
+    border-bottom: 1px solid lightgoldenrodyellow;
+}*/
+.wordpress-circle {
+    height: 120px;
+    width: 120px;
+    /*background-color: #786eb1;*/
+    background-color: white;
+    border-radius: 60px;
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    border: 2px solid yellow;
+    transition: all 1s ease;
+}
+.size-circle{
+    transition: all 1s ease;
+}
+.wordpress-circle:hover{
+    transform: rotateY(100deg);
+}
+.size-circle:hover{
+    transform: rotateY(-150deg);
+}
+
+#service-section{
+    /*background-image: url("../images/slide5.jpg");*/
+    background-size: 100% 100%;
+}
+.font-color {
+    color: white;
+    font-weight: bold;
+    /* letter-spacing: 2px; */
+}
+
+/*-------------------work section------------------------------*/
+
+
+
+.wrapper{
+    width: 100%;
+    min-height: 400px;
+    background:rgba(0,0,0, .5);();
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.wrapper .box{
+    height: 300px;
+    width: 250px;
+    background-color: #545b62;
+    margin: 15px;
+    position: relative;
+}
+.wrapper .box .imageBox{
+    position: absolute;
+    overflow: hidden;
+}
+.wrapper .box .imageBox img{
+    width: 100%;
+    height:300px;
+    transition: all 1s ease;
+}
+.wrapper .box:hover .imageBox img{
+    transform: scale(1.3)
+}
+.wrapper .box .imageContent{
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    background-color: rgba(0,0,0,.4);
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    transform: scale(0);
+    transition: all 1s ease;
+}
+.wrapper .box:hover .imageContent{
+    transform: scale(1);
+}
+
+
+
+/*---------------------------icon----------------------*/
+.icons{
+    z-index: 999;
+}
+
+.icons ul{
+
+    overflow: hidden;
+    width: 102px;
+}
+.icons{
+    position: fixed;
+    top: 20%;
+    right: 0px;
+
+
+}
+.icons li {
+    list-style-type: none;
+    padding:3px;
+
+}
+
+.icons li a {
+    list-style-type: none;
+    transition: .6s;
+    color: white;
+}
+.icons li a {
+    font-size: 20px;
+    display: block;
+}
+.icons li a:hover {
+    padding:0 10px 0 0;
+
+}
+
+.icons .facebook {
+    background: #0062cc;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .youtube {
+    background: red;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .twitter {
+    background: deepskyblue;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .flickr {
+    background: black;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .linkedin {
+    background: blue;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .github {
+    background: black;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .stackoverflow {
+    background: gold;
+    border-radius: 5px 0 0 5px ;
+
+
+ }
+ .icons .fiverr {
+    background: #1EBF73;
+    border-radius: 5px 0 0 5px ;
+
+
+ }
+
+
+
+
+
+
+
+/*------------------------------------about section------------------------*/
+.about-section{
+    min-height: 700px;
+    background-color: rgba(0,0,0,.3);
+     background-image:url('../images/background/night6.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: scroll;
+     position: relative;
+
+}
+.my-work-section{
+   
+    background-color: rgba(0,0,0,.3);
+     background-image:url('../images/background/sunset2.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+
+
+}
+
+.my-service-section{
+   
+    background-color: rgba(0,0,0,.3);
+     background-image:url('../images/background/night5.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment:fixed;
+      position: relative;
+
+}
+/*--------------------------------------project page----------------------*/
+
+.project_menu_back_color{
+    background-color: black;
+}
+.project_back_image{
+   
+    background-color: rgba(0,0,0,.3);
+     background-image:url('../images/background/slider3.jpeg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment:fixed;
+      position: relative;
+
+}
+
+/*c-----------------------------carousel media query-------------------*/
+
+
+@media(min-width:200px ) and (max-width:575px){
+     .caption_media{
+        font-size: 30px;
+        
+    }
+
+    .slider-heading2{
+        font-size: 15px;
+    }
+
+
+}
+
+@media(min-width:576px ) and (max-width:767px){
+     .caption_media{
+        font-size: 30px;
+        color: white;
+    }
+
+    .slider-heading2{
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+

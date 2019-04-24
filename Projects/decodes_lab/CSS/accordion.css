@@ -1,0 +1,63 @@
+/*--------------------------------------------------------\
+*                                                         *
+*  ***********************************                    *
+*  * THEME NAME: DECODES LAB LIMITED *                    *
+*  ***********************************                    *
+*                                                         *
+*  AUTOR NAME: AZIZUL HASAN                               *
+*  AUTHOR URL: https://www.facebook.com/azizul.bookreview *
+*  THEME VIRSION: 1.0.0                                   *
+*                                                         *
+* --------------------------------------------------------*/
+
+
+
+
+
+
+/*FAQ PAGE*/
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f067";
+    float: right;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
+
+
+.section-header h3::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: firebrick;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.section-header h4::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: firebrick;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.border_bottom{
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 0;
+    color: black;
+}

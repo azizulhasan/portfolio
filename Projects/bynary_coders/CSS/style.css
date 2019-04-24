@@ -1,0 +1,421 @@
+
+.my-container {
+    width: 100%;
+    padding-right:23px;
+    padding-left: 23px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.my-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -1px;
+    margin-left: -1px;
+}
+
+
+.main-navbar-bg{
+    background: white;
+}
+/*===============search section==============*/
+.list{
+    list-style-type: none;
+}
+/*.{*/
+    /*border: 3px solid red;*/
+    /*background: red;*/
+/*}*/
+
+.domain {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 10px;
+    color: #486759;
+    font-family: "Arial Black";
+    background-color: #65565633;
+    border-radius: 40px;
+    transition: all 2s ease;
+}
+.domain:hover{
+    background-color: #333333;
+    color: whitesmoke;
+    border: 3px inset #c8ccdc;
+    cursor: pointer;
+}
+.pricing {
+    padding: 20px 12px;
+    color: #486759;
+    font-family: "Arial Black";
+
+    background-color: #65565633;
+    /*letter-spacing: 2px;*/
+    border-radius: 40px;
+    transition: all 2s ease;
+}
+.pricing:hover{
+    background-color: #333333;
+    color: whitesmoke;
+    border: 3px inset #c8ccdc;
+    cursor: pointer;
+}
+
+
+
+
+/*.list {*/
+    /*text-decoration: none;*/
+    /*list-style-type: none;*/
+    /*width: 100%;*/
+    /*display: block;*/
+    /*padding: 20px 20px;*/
+    /*color: #486759;*/
+    /*font-family: "Arial Black";*/
+    /*border: 3px outset #c8ccdc;*/
+    /*background-color: #65565633;*/
+    /*letter-spacing: 2px;*/
+    /*border-radius: 40px;*/
+    /*transition: all 2s ease;*/
+/*}*/
+/*.list:hover{*/
+    /*background-color: #333333;*/
+    /*color: whitesmoke;*/
+    /*border: 3px inset #c8ccdc;*/
+    /*cursor: pointer;*/
+/*}*/
+
+
+
+
+
+/*nav active style===============*/
+
+/*============nav item hover=============*/
+a.text-dark:hover, a.text-dark:focus {
+    color: blue !important;
+}
+
+.nav-bg{
+    background: blue;
+    height: 30px;
+}
+.nav-font{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.main-nav-bg{
+    padding-right: 30px;
+    color: black;
+
+}
+    /*====dropdown====*/
+
+.dropdown:hover ul{
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.dropdown  ul li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+
+}
+/*.dropdown  ul li:hover{*/
+    /*transition: 2s;*/
+    /*border-radius: 10px;*/
+/*}*/
+
+.dropdown-menu {
+    background-color:white;
+    color: black;
+    transition:1s;
+
+}
+.dropdown-menu li a:hover {
+    background-color:green;
+    color: white;
+
+}
+/*========nav toggler icon===============*/
+
+.icon-color{
+    background-color: black;
+}
+.icon{
+    color: red;
+    background-color: white;
+}
+.search-image{
+    background-image: url("../IMG/server-room-3d-illustration-with-node-base-programming-data-design-element_34663-12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+.img-overlay{
+    background: rgba(0,0,0, .6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    min-height: 200px;
+}
+
+.h-20{
+    height:40px;
+}
+/*=========bottom of search form ===========*/
+.nav ul li{
+    float: left;
+    width: 130px;
+    display: block;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    border-top: 2px solid gray;
+}
+
+.nav ul  .wp-border{
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+
+}
+/*=============service plan==============*/
+.s-bg-color{
+    background:darkblue;
+    color: white;
+
+}
+.p-bg-color{
+    background: blue;
+}
+.list-text{
+    font-size: 13px;
+}
+
+.price-section{
+
+    /*font-family: "Arial Black";*/
+    font-size: 15px;
+    /*background: blue;*/
+    /*letter-spacing: 1px;*/
+    border-radius: 10px;
+    transition: all 2s ease;
+
+}
+.price-section:hover{
+    box-shadow: 5px 5px 5px ;
+    border: 3px inset #c8ccdc;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+/*==================plan category section=================*/
+
+.plan-section-css {
+    color: white;
+    font-family: "Arial Rounded MT Bold";
+    background: blue;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+.plan-section-css:hover{
+    background: #5bc0de;
+    color: whitesmoke;
+    border: 3px inset #c8ccdc;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+/*===========2nd row ==============*/
+.plan-section-css-2nd-row {
+    color: white;
+    font-family: "Arial Rounded MT Bold";
+    background: blue;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+.plan-section-css-2nd-row:hover{
+    background:forestgreen;
+    color: whitesmoke;
+    border: 3px inset #c8ccdc;
+    cursor: pointer;
+    transform: translateY(10px);
+}
+
+#plan-category{
+    background: gainsboro;
+}
+.border-2{border:3px solid white}
+
+
+
+
+
+
+/*=================help section=============*/
+#help-section{
+    background:lightgray;
+}
+.help-color{
+    font-size:35px;
+    color: #007bff;
+}
+
+/*====================hosting service  section====================*/
+#hosting-section{
+    background: gainsboro;
+    color: black;
+    font-size: 17px;
+
+}
+
+.hosting-icon-bg{
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+
+}
+
+            /*animation======================*/
+.animateTop{
+    animation: animateTop 3s infinite 0s ease-in-out;
+}
+@keyframes animateTop{
+    0%{
+        transform: translateY(-10%);
+
+    }
+    100%{
+        transform: rotate(5deg) translateY(0);
+
+    }
+}
+.animateMiddle{
+    animation: animateMiddle 3s infinite 0s ease-in-out;
+}
+@keyframes animateMiddle{
+    0%{
+        transform: skewY(10deg);
+
+
+    }
+    100%{
+        transform: rotate(5deg) translateY(0);
+
+
+    }
+}
+
+
+/*======================accordion*===================/
+
+
+
+/*======================tutorials=================*/
+.tutorial-ques-bg{
+    background: #9fcdff;
+}
+/*===============payment section================*/
+.payment_border{
+    border: dotted;
+}
+/*====================.help bottom section=============*/
+#help-bottom-section{
+    background: #0062cc;
+}
+
+
+
+.icon-padding{
+    padding-left: 17px;
+    padding-top: 11px;
+}
+.icon-padding:hover{
+    color: #007bff;
+}
+/*==================service offer section================*/
+#service-offer{
+    background-image: url("../IMG/PEN.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.img1-overlay{
+    background: rgba(0,0,0, .5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+
+#service-plan .container .row .col-lg-3:hover{
+
+    box-shadow:5px 5px 5px 5px  silver;
+
+}
+#footer-top{
+    background: black;
+}
+@media (min-width: 300px)  and (max-width: 600px) {
+    .logo{
+        width: 50%;
+    }
+}
+
+/
+@media (max-width: 991px) {
+    .top-menu{
+        width:180px ;
+    }
+    .top-menu1{
+        width: auto;
+    }
+
+}
+@media (max-width: 767px) {
+    .wpm-border{
+        /*border-right: none;*/
+        /*border-left: none;*/
+        border-top: 2px solid gray;
+    }
+
+    .nav ul  .wp-border{
+        border: none;
+    }
+    .nav ul li{
+        border: none;
+    }
+
+}
+
+/*-------------------dropdown media------------*/
+@media (min-width:200px) and (max-width:600px){
+    .dropdown:hover ul{
+        display: block;
+        width: 300px;
+        text-align: center;
+    }
+}
+
+
+/*search media*/
+@media (min-width:200px) and (max-width:600px){
+    #search h1{
+        font-size:28px;
+    }
+}

@@ -1,0 +1,104 @@
+/*nav*/
+.nav-top-font{
+    font-size: 13px;
+}
+/*bottom-menu*/
+.nav-text{
+  color: black;
+}
+.pr-260{
+    padding-right:200px;
+}
+.pl-100{
+    padding-left:70px
+}
+.pb-150{padding-bottom: 150px}
+.img-responsive{
+    width: 100%;
+    height:100%;
+}
+.pl-700{padding-left: 680px;}
+.pl-700{padding-left: 700px}
+.pl-750{padding-left: 750px}
+.pl-320{
+    padding-left:250px;
+}
+.padding-bottom{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.padding-top{
+    padding-top:0;
+    marging-top:0;
+}
+.card-font{
+    font-size: 20px;
+}
+.card-font1{
+    font-size: 12px;
+}
+
+.caption-font{font-size: 10px}
+.card-button-font{
+    font-size: 5px;
+    height: 30px;
+    width: 95px;
+}
+.card-button-font1{
+    font-size: 5px;
+    height: 30px;
+    width: 95px;
+}
+.carousel-backgroud{
+    height: 100%;
+    width:100%;
+    background-color: rgba(0,0,0 .6);
+    color: white;
+
+
+}
+.background-image{
+    background-image: url("../images/slider-bottom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+/*footer*/
+
+.footer-background{
+    background-color:#424242;
+    color: whitesmoke;
+}
+.footer-link-font{
+     font-size: 12px;
+ }
+
+.footer-link-font2{
+    font-size: 12px;
+}
+.footer-link-font3{
+    font-size: 14px;
+}
+.footer-bottom-background{
+    background-color:#262626;
+}
+
+/*bottom menu*/
+@media screen and (max-width: 992px) {
+    .nav-media{
+      background-color: #262626;
+      color: white;
+    }
+    .icon-color{
+        background-color: whitesmoke;
+        color: black;
+    }
+
+}
+@media screen and  (min-width: 768px) and  (max-width: 992px){
+    .card-media{
+        width: 500px;
+    }
+}

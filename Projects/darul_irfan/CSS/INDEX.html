@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Darul Irfan Academy</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/teachers.png">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="all.css">
+        <link rel="stylesheet" href="fontawesome.css">
+        <link rel="stylesheet" href="uikit.min.css">
+
+
+    </head>
+    <body>
+    <!--<header class="mt-2">-->
+        <!--<div class="my_container">-->
+            <!--<img src="images/Banner-4.jpg" height="120" width="100%" class="h-margin"/>-->
+        <!--</div>-->
+    <!--</header>-->
+    <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive:  uk-light ; top: 80">
+
+    <nav class="navbar   nav-bg navbar-expand-md ">
+        <div class="my_container">
+            <button class="navbar-toggler  border-light"  data-toggle="collapse" data-target="#main-content" aria-controls="" aria-expanded="" aria-label="">
+                <span class="bg-light   navbar-toggler-icon px-0 mx-0"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-content">
+                <ul class="navbar-nav mr-auto" id="ul-hover">
+                    <li class=" nav-item ">
+                        <a class=" nav-link nav-active" href="../index.html">HOME</a>
+                    </li>
+
+                    <!--ABOUT-->
+                    <li class="  nav-item dropdown">
+                        <a class="nav-link dropdown-toggle "  href="" data-toggle="dropdown" >ABOUT</a>
+                        <ul class="dropdown-menu ">
+                            <li><a target="_blank" href="../institution.html" class="dropdown-item">Our Institute</a></li>
+                            <li><a target="_blank" href="../teachers.html" class="dropdown-item">Teacher's and Employee</a></li>
+                        </ul>
+                    </li>
+                    <!--RESULT-->
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link  dropdown-toggle" href="../result.html" data-toggle="dropdown">RESULT</a>
+                        <ul class="dropdown-menu ">
+                            <li><a target="_blank" href="../result.html" class="dropdown-item">Ibtedae</a></li>
+                            <li><a target="_blank" href="../result.html" class="dropdown-item">JDC (Junior Dakhil Certificate)</a></li>
+                            <li><a target="_blank" href="../result.html" class="dropdown-item">Dakhil</a></li>
+                            <li><a target="_blank" href="../result.html" class="dropdown-item">Alim</a></li>
+                            <li><a target="_blank" href="../result.html" class="dropdown-item">Addmition Test</a></li>
+                        </ul>
+
+                    </li>
+                    <!--PICTURE-->
+                    <li class="nav-item ">
+                        <a class="nav-link " target="_blank" href="../picture.html">PICTURES</a>
+                    </li>
+                    <!--IMPORTAN LINKS-->
+
+                    <li class="nav-item" >
+                        <a target="_blank" href="../important-links.html" id="menu-media-query2" class="nav-link">IMPORTANT LINKS</a>
+                    </li>
+                    <!--NOTICE-->
+                    <li class="nav-item" >
+                        <a target="_blank" href="../notice.html" class="nav-link">NOTICE</a>
+                    </li>
+                    <!--LOGIN-->
+                    <li class="nav-item " >
+                        <a target="_blank" class="nav-link " id="menu-media-query" data-target="#mylogin" data-toggle="modal" href=""  >LOGIN</a>
+                        <ul class="dropdown-menu ">
+                            <li><a target="_blank" href="" class="dropdown-item">LogOut</a></li>
+                            <li><a target="_blank" href="" class="dropdown-item">Setting</a></li>
+                        </ul>
+
+                    </li>
+
+                    <!--REGISTER-->
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link" id="menu-media-query1" data-target="#myregistration" data-toggle="modal" href="" >REGISTER</a>
+
+                    </li>
+
+
+
+                    <!--====================================================MODAL===================-->
+                    <div class="modal fade" id="myregistration">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <a class="btn btn-success text-center text-light px-5 " data-toggle="modal" data-target="#myLogin">Login</a>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h1 class="card-title bg-primary text-light px-2 rounded text-center">REGISTER</h1>
+                                            <form action="" method="post">
+                                                <div class="form-group">
+                                                    <label for="firstName" class="col-form-label">First Name</label>
+                                                    <input type="text" class="form-control" id="firstName">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="lastName" class="col-form-label">Last Name</label>
+                                                    <input type="text" class="form-control" id="lastName">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="email" class="col-form-label">Email </label>
+                                                    <input type="email" class="form-control" id="email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="password" class="col-form-label">Password </label>
+                                                    <input type="password" class="form-control" id="password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="phoneNumber" class="col-form-label">Phone Number </label>
+                                                    <input type="number" class="form-control" id="phoneNumber">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="address" class="col-form-label"> Address</label>
+                                                    <textarea type="text" class="form-control" id="address"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="radio" name="gender" value="male"> Male
+                                                    <input type="radio" name="gender" value="female"> Female
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-form-label">District Name  </label>
+                                                    <select class="form-control">
+                                                        <option>-----Select Your District Name---</option>
+                                                        <option value="">Dhaka</option>
+                                                        <option value="">Narayangong</option>
+                                                        <option value="">Dohar</option>
+                                                        <option value="">Sylhet</option>
+                                                        <option value="">Savar</option>
+                                                        <option value="">Keranigong</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="checkbox" name="agree" value="1"> I Agree
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="file" class="form-control-file" name="image" accept="image/*" multiple/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-form-label"></label>
+                                                    <input type="button" class="btn btn-success btn-block" value="Register" >
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--<div class="modal-footer">-->
+                                <!--<a href="" class="btn btn-success">SUBMIT</a>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--========================login modal===================================-->
+                    <div class="modal fade" id="mylogin">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h1 class="card-title bg-primary text-light px-2 rounded text-center">Login</h1>
+                                            <form action="" method="post">
+                                                <div class="form-group">
+                                                    <label for="email" class="col-form-label">Email </label>
+                                                    <input type="email" class="form-control" id="email1">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="password" class="col-form-label">Password </label>
+                                                    <input type="password" class="form-control" id="password1">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="" class="btn btn-success btn-block">Lon In</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--===============================end modal===========================-->
+
+
+
+                </ul>
+<!--===============================end nav item=====================-->
+                <form class="form-inline  my-2 my-lg-0" >
+                    <div class="input-group" >
+                        <input class="form-control  " id="search-bar" type="text" placeholder="Search" >
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fab fa-search"></i></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+
+    <!--===================================end nav section==========================-->
+
+    <!--===========carousel section================================-->
+    <section id="carousel-card-section">
+        <div class="my_container border-top">
+            <div class="my_row">
+                <div class="col-md-9 border-right">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:900px;height:450px;overflow:hidden;visibility:hidden;background-color:#24262e;">
+                                <!-- Loading Screen -->
+                                <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                                    <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../test/spin.svg" />
+                                </div>
+                                <div data-u="slides" style="cursor:default;position:relative;top:0px;left:240px;width:720px;height:450px;overflow:hidden;">
+                                    <div>
+                                        <img src="../images/carousel.jpg" data-u="image" />
+                                        <img src="../images/thumbnil/carousel-99.jpg" data-u="thumb" />
+                                        <!--<img data-u="image" src="test/004.jpg" />-->
+                                        <!--<img data-u="thumb" src="test/004-s99x66.jpg" />-->
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel1.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel1-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel2.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel2-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel4.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel4-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel5.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel5-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel6.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel6-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel7.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel7-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel8.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel8-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel9.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel9-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel10.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel10-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel11.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel11-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel12.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel12-99.jpg" />
+                                    </div>
+                                    <div>
+                                        <img data-u="image" src="../images/carousel13.jpg" />
+                                        <img data-u="thumb" src="../images/thumbnil/carousel13-99.jpg" />
+                                    </div>
+                                </div>
+                                <!-- Thumbnail Navigator -->
+                                <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;top:0px;width:240px;height:480px;background-color:#000;" data-autocenter="2" data-scale-left="0.75">
+                                    <div data-u="slides">
+                                        <div data-u="prototype" class="p" style="width:99px;height:66px;">
+                                            <div data-u="thumbnailtemplate" class="t"></div>
+                                            <svg viewbox="0 0 16000 16000" class="cv">
+                                                <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                                                <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                                                <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Arrow Navigator -->
+                                <div data-u="arrowleft" class="jssora093" style="width:50px;height:50px;top:0px;left:270px;" data-autocenter="2">
+                                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                        <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                                        <polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
+                                        <line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
+                                    </svg>
+                                </div>
+                                <div data-u="arrowright" class="jssora093" style="width:50px;height:50px;top:0px;right:30px;" data-autocenter="2">
+                                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                        <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                                        <polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
+                                        <line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+<!--====================== carousel end===================-->
+
+
+ <!--=================start news section============================-->
+                        <div class="col-md-12 py-5">
+                            <h3 class="text-center font-weight-bold bg-secondary py-2 border text-secondary text-light">News Of Darul Irfan Madrasah</h3>
+                            <div class="card-columns">
+
+  <!--=======================video section-->
+                                <div class="card uk-card-hover">
+                                    <div class="card-header bg-primary text-light font-weight-bold">Darul Irfan Videos </div>
+                                    <div class="card-body jumbotron-fluid  ">
+                                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/6T8stXj7Dzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="card-footer"><a href="../videos.html" class="btn btn-block btn-primary "> Watch More</a></div>
+                                </div>
+
+             <!--=====================new section=================-->
+                                <div class="card uk-card-hover">
+                                    <div class="card-header bg-success text-light font-weight-bold">এসএসসি ফেয়ারওয়েল ২০১৯</div>
+                                    <div class="card-body jumbotron-fluid px-4 ">
+                                        <p class="card-text text-justify">
+                                            দাখিল পরীক্ষা ২০১৯ সালের পরীক্ষার্থীদের দোয়া ও বিদায়ী সংবর্ধনায় বক্তব্য রাখছেন দারুল ইরফান একাডেমি, চট্টগ্রামের অধ্যক্ষ মোহাম্মাদ কেফায়েত উল্লাহ। প্রধান অতিথি হিসেবে উপস্থিত ছিলেন দারুল উলুম কামিল মাদরাসার মুহাদ্দিস ও মুরাদপুর বেলাল মসজিদের খতিব বিশিষ্ট আলেমে দ্বীন হযরত মাওলানা আহমাদুর রহমান |
+                                        </p>
+                                    </div>
+                                    <div class="card-footer"><a href="" class="btn btn-block btn-success "> Read More</a></div>
+                                </div>
+                                <div class="card uk-card-hover">
+                                    <div class="card-header bg-success text-light font-weight-bold">এসএসসি ফেয়ারওয়েল ২০১৯</div>
+                                    <div class="card-body jumbotron-fluid px-4 ">
+                                        <p class="card-text text-justify">
+                                            দাখিল পরীক্ষা ২০১৯ সালের পরীক্ষার্থীদের দোয়া ও বিদায়ী সংবর্ধনায় বক্তব্য রাখছেন দারুল ইরফান একাডেমি, চট্টগ্রামের অধ্যক্ষ মোহাম্মাদ কেফায়েত উল্লাহ। প্রধান অতিথি হিসেবে উপস্থিত ছিলেন দারুল উলুম কামিল মাদরাসার মুহাদ্দিস ও মুরাদপুর বেলাল মসজিদের খতিব বিশিষ্ট আলেমে দ্বীন হযরত মাওলানা আহমাদুর রহমান |
+                                        </p>
+                                    </div>
+                                    <div class="card-footer"><a href="../news.html" target="_blank" class="btn btn-block btn-success "> Read More</a></div>
+                                </div>
+                                <div class="card uk-card-hover">
+                                    <div class="card-header bg-success text-light font-weight-bold">এসএসসি ফেয়ারওয়েল ২০১৯</div>
+                                    <div class="card-body jumbotron-fluid px-4 ">
+                                        <p class="card-text text-justify">
+                                            দাখিল পরীক্ষা ২০১৯ সালের পরীক্ষার্থীদের দোয়া ও বিদায়ী সংবর্ধনায় বক্তব্য রাখছেন দারুল ইরফান একাডেমি, চট্টগ্রামের অধ্যক্ষ মোহাম্মাদ কেফায়েত উল্লাহ। প্রধান অতিথি হিসেবে উপস্থিত ছিলেন দারুল উলুম কামিল মাদরাসার মুহাদ্দিস ও মুরাদপুর বেলাল মসজিদের খতিব বিশিষ্ট আলেমে দ্বীন হযরত মাওলানা আহমাদুর রহমান |
+                                        </p>
+                                    </div>
+                                    <div class="card-footer"><a href="../news.html" target="_blank" class="btn btn-block btn-success "> Read More</a></div>
+                                </div>
+                                <div class="card uk-card-hover">
+                                    <div class="card-header bg-success text-light font-weight-bold">এসএসসি ফেয়ারওয়েল ২০১৯</div>
+                                    <div class="card-body jumbotron-fluid px-4 ">
+                                        <p class="card-text text-justify">
+                                            দাখিল পরীক্ষা ২০১৯ সালের পরীক্ষার্থীদের দোয়া ও বিদায়ী সংবর্ধনায় বক্তব্য রাখছেন দারুল ইরফান একাডেমি, চট্টগ্রামের অধ্যক্ষ মোহাম্মাদ কেফায়েত উল্লাহ। প্রধান অতিথি হিসেবে উপস্থিত ছিলেন দারুল উলুম কামিল মাদরাসার মুহাদ্দিস ও মুরাদপুর বেলাল মসজিদের খতিব বিশিষ্ট আলেমে দ্বীন হযরত মাওলানা আহমাদুর রহমান |
+                                        </p>
+                                    </div>
+                                    <div class="card-footer"><a href="../news.html" target="_blank" class="btn btn-block btn-success "> Read More</a></div>
+                                </div>
+                                <div class="card uk-card-hover">
+                                    <div class="card-header bg-success text-light font-weight-bold">এসএসসি ফেয়ারওয়েল ২০১৯</div>
+                                    <div class="card-body jumbotron-fluid px-4 ">
+                                        <p class="card-text text-justify">
+                                            দাখিল পরীক্ষা ২০১৯ সালের পরীক্ষার্থীদের দোয়া ও বিদায়ী সংবর্ধনায় বক্তব্য রাখছেন দারুল ইরফান একাডেমি, চট্টগ্রামের অধ্যক্ষ মোহাম্মাদ কেফায়েত উল্লাহ। প্রধান অতিথি হিসেবে উপস্থিত ছিলেন দারুল উলুম কামিল মাদরাসার মুহাদ্দিস ও মুরাদপুর বেলাল মসজিদের খতিব বিশিষ্ট আলেমে দ্বীন হযরত মাওলানা আহমাদুর রহমান |
+                                        </p>
+                                    </div>
+                                    <div class=" uk-card-footer "><a href="../news.html" target="_blank" class="btn btn-block btn-success "> Read More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end card section-->
+                    </div>
+                        <!--end row of col-md-9-->
+
+                </div>
+                    <!--end col-md-9-->
+
+
+
+
+     <!--================================side menu==================  -->
+                <div id="side_menu" class="col-md-3 ">
+                    <h4 class="text-center bg-success text-light mb-0 py-2">দারুল ইরফান সংবাদ</h4>
+                    <ul class="bg-white text-dark mt-0 pr-1">
+                        <li><a target="_blank" href="../news.html"><small>এসএসসি ফেয়ারওয়েল ২০১৯ January 29, 2019</small></a></li>
+                        <li><a target="_blank" href="../news.html"><small>এসএসসি ফেয়ারওয়েল ২০১৯ January 29, 2019</small></a></li>
+                        <li><a target="_blank" href="../result.html"><small>এসএসসি ফেয়ারওয়েল ২০১৯ January 29, 2019</small></a></li>
+                        <li><a target="_blank" href="../news.html"><small>এসএসসি ফেয়ারওয়েল ২০১৯ January 29, 2019</small></a></li>
+                        <li><a target="_blank" href="../news.html"><small>এসএসসি ফেয়ারওয়েল ২০১৯ January 29, 2019</small></a></li>
+                        <li><a target="_blank" href="../result.html"><small>PSC Public Result 2018 December 25, 2018</small></a></li>
+                    </ul>
+
+ <!--==========================importent links-->
+
+
+
+                    <h5 class=" text-center bg-primary py-2 text-light">গুরুত্বপূর্ণ ওয়েবসাইটসমূহ</h5>
+                    <ul class="bg-white ">
+                        <li><a target="_blank" href="http://bmeb.gov.bd/"><small >মাদরাসা বোর্ড</small></a></li>
+                        <li><a target="_blank" href="https://moedu.gov.bd/"><small >শিক্ষা মন্ত্রণালয়</small></a></li>
+                        <li><a target="_blank" href="http://www.dpe.gov.bd/"><small >প্রাথমিক শিক্ষা অধিদপ্তর</small></a></li>
+                        <li><a target="_blank" href="http://www.banbeis.gov.bd/"><small >শব্যানবেইস</small></a></li>
+                        <li><a target="_blank" href="http://bris.lgd.gov.bd/pub/?pg=application_form"><small >জন্ম ও মৃত্যু নিবন্ধন</small></a></li>
+                        <li><a target="_blank" href="http://pcc.police.gov.bd:8080/apex/f?p=500:1::::::"><small >অনলাইন পুলিশ ক্লিয়ারেন্স</small></a></li>
+                        <li><a target="_blank" href="http://xn--d5by7bap7cc3ici3m.xn--54b7fta0cc/"><small >ভউত্তরাধিকার ক্যালকুলেটর</small></a></li>
+                    </ul>
+
+ <!--==================== honourable president=================-->
+                    <h5 class=" text-center bg-primary py-2 text-light">মাননীয় সভাপতি</h5>
+                    <div class="card">
+                        <div class="card-body bg-white">
+                            <img src="../images/Chairman.jpg" height="230" width="100%"/>
+                        </div>
+                        <div class="card-footer  bg-primary text-center" > <a href="../message.html" class="text-light">সভাপতির বাণী</a> </div>
+                    </div>
+                </div>
+<!--==============end of side menu=======================-->
+            </div>
+        </div>
+    </section>
+
+
+    <!--======================footer section ===================-->
+
+    <!--footer top-->
+    <footer id="footer-top">
+        <div class="my_container bg-dark">
+            <div class="my_row">
+                <div class="col-md-4 col-sm-6 pl-md-5 pt-3  border-right">
+                    <div class="row ">
+
+<!--==================Our institution==================-->
+                        <div class="col-md-12 ">
+                            <h4 class="font-weight-bold text-warning">Our institution</h4>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="navbar-nav ">
+                                <li><a target="_blank"  class="nav-link text-light py-0" href="../notice.html"><small>Notice</small></a></li>
+                                <li><a target="_blank"  class="nav-link text-light py-0" href="../result.html"><small>Alim Result 2019</small></a></li>
+                                <li><a target="_blank"  class="nav-link text-light py-0" href="../result.html"><small>Dakhil Result 2019</small></a></li>
+                                <li><a target="_blank"  class="nav-link text-light py-0" href="../result.html"><small>JDC Result 2019</small></a></li>
+                                <li><a target="_blank"  class="nav-link text-light py-0" href="../result.html"><small>Ibtedae Result 2019</small></a></li>
+                                <li><a target="_blank"  class="nav-link text-light py-0" href="../result.html"><small>Addmission Result 2019</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              <!--=================important links==================-->
+                <div class="col-md-4 col-sm-6 pl-md-5 pt-3  border-right">
+                    <div class="row">
+                        <div class="col-md-12 text-success">
+                            <h4 class="font-weight-bold text-warning">Important Links </h4>
+
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="navbar-nav ">
+                                <li><a class="nav-link text-light py-0" target="_blank" href="http://bmeb.gov.bd/"><small>মাদরাসা বোর্ড</small></a></li>
+                                <li><a class="nav-link text-light py-0" target="_blank" href="//moedu.gov.bd/"><small>শিক্ষা মন্ত্রণালয়</small></a></li>
+                                <li><a class="nav-link text-light py-0" target="_blank" href="//www.dpe.gov.bd/"><small>প্রাথমিক শিক্ষা অধিদপ্তর</small></a></li>
+                                <li><a class="nav-link text-light py-0" target="_blank" href="http://xn--d5by7bap7cc3ici3m.xn--54b7fta0cc/"><small>ভউত্তরাধিকার ক্যালকুলেটর</small></a></li>
+                                <li><a class="nav-link text-light py-0" target="_blank" href="//www.banbeis.gov.bd/"><small>শব্যানবেইস</small></a></li>
+                                <li><a class="nav-link text-light py-0" target="_blank" href="//bris.lgd.gov.bd/pub/?pg=application_form"><small>জন্ম ও মৃত্যু নিবন্ধন</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+<!--=======================contact section-->
+
+                <div class="col-md-4 col-sm-12 pl-md-5 pt-3 ">
+                    <div class="row">
+                        <div class="col-md-12  text-success">
+                            <h4 class="font-weight-bold text-warning">Our Address</h4>
+                        </div>
+                        <div class="col-md-12 text-light">
+                            <small>Chadgaon Abasik<br/>
+                                Baddarhat, Chattagram</small>
+                            <small>
+                                Phone: +88 01799771177<br/>
+                                +88 01912310191
+                            </small>
+                            <small>
+                                darulirfan.net@gmail.com<br/>
+                            </small>
+                            <div class="">
+                                <a href=""><i class="text-primary rounded-circle fab fa-facebook"></i></a>
+                                <a href=""><i class="text-danger rounded-circle fab  fa-youtube"></i></a>
+                                <a href=""><i class="text-primary rounded-circle fab fa-twitter"></i></a>
+                                <a href=""><i class=" text-primary rounded-circle fab fa-linkedin"></i></a>
+                                <a href=""> <i class="text-danger rounded-circle fab fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-right pr-5 align-self-end  "><a href="#" class="top"><i class="text-light fas fa-arrow-circle-up"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--footer bottom-->
+    <footer class="bg-secondary" id="footer-bottom">
+        <div class="my_container">
+            <div class="my_row py-2">
+                <div class="col-8 text-light">Copyright &copy; 2018-2019 Binary Coders - All rights reserved. <small class="text-warning">Desinged& Developed By <a href="https://www.facebook.com/azizulhasan1995" target="_blank" class="text-light">Azizul Hasan</a></small></div>
+                <div class="col-4">
+                    <a href="" class="text-light"> | Privacy Policy	|</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="../JS/jquery-3.3.1.js"></script>
+    <script src="../JS/all.js"></script>
+    <script src="../JS/bootstrap.js"></script>
+    <script src="../JS/bootstrap.bundle.js"></script>
+    <script src="../JS/uikit-icons.min.js"></script>
+    <script src="../JS/uikit.min.js"></script>
+    <script src="../JS/script.js"></script>
+    <script src="../test/jssor.slider-27.5.0.min.js"></script>
+
+    <script type="text/javascript">jssor_1_slider_init();</script>
+
+    </body>
+</html>

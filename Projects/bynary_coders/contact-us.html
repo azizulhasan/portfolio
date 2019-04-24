@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="IMG/favicon.jpg">
+    <title>Domain & Web Hosting</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/uikit.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/hosting.css">
+</head>
+<body>
+
+<section class="bg-dark h-20">
+    <div class="my-container">
+        <div class="my-row">
+            <div class="col-12 col-md-3">
+                <div class="navbar navbar-expand">
+                    <ul class="navbar-nav">
+                        <a class=" pl-0 ml-0  text-light" href=""> <i class="fab fa-facebook"></i></a>
+                        <a class=" px-1 text-light" href=""><i class="fab  fa-youtube"></i></a>
+                        <a class=" px-1 text-light" href=""><i class="fab fa-twitter"></i> </a>
+                        <a class=" px-1 text-light" href=""><i class="fab fa-linkedin"></i></a>
+                        <a class=" px-1 text-light" href=""><i class="fab fa-google-plus"></i>  </a>
+                        <li class="nav-item pl-1 ml-5 d-md-none"><a class=" text-light"  data-toggle="modal" data-target="#myModal" > <i class="fas fa-user px-1"></i>Login/Register</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-9">
+                <div class="navbar navbar-expand">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-1  text-light d-none d-lg-block"> <i class="fas fa-phone-square px-1"></i>017132324354</li>
+                        <li class="nav-item px-1  text-light d-none d-lg-block"> <i class="fas fa-phone-square px-1"></i>017132324354</li>
+                        <li class="nav-item px-1 d-none d-lg-block"><a class=" text-light" href=""> <i class="fa fa-envelope-open px-1"></i>Email Us</a></li>
+                        <li class="nav-item px-1 d-none d-lg-block"><a class=" text-light" href=""> <i class="fas fa-question px-1"></i>Support</a></li>
+                        <li class="nav-item pl-1 d-none d-lg-block"><a class=" text-light" href=""  data-target="#myModal" data-toggle="modal"> <i class="fas fa-user px-1"></i>Login/Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--========================MODAL===================-->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="btn btn-success text-center text-light px-5 " data-toggle="modal" data-target="#myLogin">Login</a>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title bg-primary text-light px-2 rounded text-center">REGISTER</h1>
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label for="firstName" class="col-form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" class="col-form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-form-label">Email </label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-form-label">Password </label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber" class="col-form-label">Phone Number </label>
+                                <input type="number" class="form-control" id="phoneNumber">
+                            </div>
+                            <div class="form-group">
+                                <label for="address" class="col-form-label"> Address</label>
+                                <textarea type="text" class="form-control" id="address"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="radio" name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female"> Female
+                            </div>
+                            <div class="form-group">
+                                <label class="col-form-label">District Name  </label>
+                                <select class="form-control">
+                                    <option>-----Select Your District Name---</option>
+                                    <option value="">Dhaka</option>
+                                    <option value="">Narayangong</option>
+                                    <option value="">Dohar</option>
+                                    <option value="">Sylhet</option>
+                                    <option value="">Savar</option>
+                                    <option value="">Keranigong</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree" value="1"> I Agree
+                            </div>
+                            <div class="form-group">
+                                <input type="file" class="form-control-file" name="image" accept="image/*" multiple/>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-form-label"></label>
+                                <input type="button" class="btn btn-success btn-block" value="Submit" >
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="modal-footer">-->
+            <!--<a href="" class="btn btn-success">SUBMIT</a>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<!--========================login modal-->
+<div class="modal fade" id="myLogin">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title bg-primary text-light px-2 rounded text-center">Login</h1>
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label for="email" class="col-form-label">Email </label>
+                                <input type="email" class="form-control" id="email1">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-form-label">Password </label>
+                                <input type="password" class="form-control" id="password1">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="" class="btn btn-success btn-block">SUBMIT</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--end modal===========================-->
+
+<!--=====================MAIN MENU=====================-->
+
+<nav class="navbar navbar-expand-lg main-navbar-bg " uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up" >
+    <div class="my-container  ">
+        <div class="my-row">
+            <a class="navbar-brand logo " href="INDEX.html"><img src="IMG/Logo-for-web-top.png" height="50" width="241" class="img-fluid"/></a>
+            <button class="navbar-toggler bg-light h-25 mt-2 ml-auto " data-target="#navCollapse" data-toggle="collapse"><span class="navbar-toggler-icon bg-dark   "></span></button>
+            <div class="collapse navbar-collapse" id="navCollapse">
+                <div class="ml-auto nav-font" >
+                    <ul class="navbar-nav ">
+                        <li class="nav-item nav-active"><a class=" nav-link text-dark " href="">HOME</a></li>
+
+                        <!--hosting dropdown-->
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link  text-dark" data-toggle="dropdown" href="hosting.html">HOSTING</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="hosting.html">WEB HOSTING</a></li>
+                                <li><a class="dropdown-item" href="p-hosting.html">PREMIUM HOSTING</a></li>
+                                <li><a class="dropdown-item" href="Resel-host.html">RESELLER HOSTING</a></li>
+                                <li><a class="dropdown-item" href="">VPS UNMANAGED</a></li>
+                                <li><a class="dropdown-item" href="">VPS MANAGED</a></li>
+                                <li><a class="dropdown-item" href="">DEDICATED SERVER</a></li>
+                            </ul>
+                        </li>
+                        <!--domain dorpdown-->
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-dark nav-hover " data-toggle="dropdown" href="">DOMAIN</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="domain-regist.html" class="dropdown-item">DOMAIN REGISTRATION</a></li>
+                                <li><a href="bd-domain.regist.html" class="dropdown-item">.BD DOMAIN REGISTRATION</a></li>
+                                <li><a href="reseller-registration.html" class="dropdown-item">RESELLER REGISTRATION</a></li>
+                            </ul>
+                        </li>
+                        <!--offer dropdown-->
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-dark " data-toggle="dropdown" href="">OFFER</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="free-domain.html" class="dropdown-item ">FREE DOMAIN</a></li>
+                                <li><a href="free-migration.html" class="dropdown-item">FREE MIGRATION</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-active nav-link text-dark " data-toggle="dropdown" href="about.html">ABOUT</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html" class="dropdown-item ">ABOUT US</a></li>
+                                <li><a href="contact-us.html" class="dropdown-item">CONTACT US</a></li>
+                                <li><a href="payment-option.html" class="dropdown-item">PAYMENT OPTION</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item "><a class=" nav-link  text-dark" href="web-design.html">WEB DESIGN</a></li>
+                        <li class="nav-item "><a class=" nav-link  text-dark" href="blog.html">BLOG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!--end main nav=========-->
+
+    <!--contact section=========-->
+
+    <section id="contact-section">
+        <div class="my-container pt-4">
+            <div class="my-row pt-4">
+                <div class="col-md-6">
+                    <small class="text-secondary text-justify py-4" >If you want to visit our office, You are most welcome. I am describing here, how you can find our office location. Our Office is located near Kallyanpur Kendrio Mosjid. 42/2, Kallyanpur Main Road, Mirpur, Dhaka-1207, Bangladesh. Please call our phone number, If you face any problem to come our office.</small>
+                    <br/>
+                    <br/>
+
+                    <small class="text-justify  text-secondary">Please be patient while waiting for response. Phone General Inquiries & Support:<strong> 01799771177, 01711993715, 01912 310191</strong></small>
+
+
+                    <form method="" action="" class="py-5">
+                        <div class="form-group " >
+                            <label class="">Your Name (required)</label>
+                            <input type="text" class="form-control">
+                            <label class="">Your Email (required)</label>
+                            <input type="text" class="form-control">
+                            <label class="">Subject (required)</label>
+                            <input type="text" class="form-control">
+                            <label class="">Message (required)</label>
+                            <textarea class="form-control form-control-lg" rows="5" ></textarea>
+
+                        </div>
+                        <a href="" class="btn btn-block btn-primary">Send Message</a>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="font-weight-bold py-0">Company Address:</h4>
+                            <small class="pb-0 font-weight-bold">Web Host BD</small><br>
+                            <small class="text-secondary">42/2, Kallyanpur Main Road, Mirpur, Dhaka-1207.</small><br>
+                            <small class="text-secondary">Mobile: +88 01799 771177</small><br>
+                            <small class="text-secondary">E-mail: webhostbd.net@gmail.com</small><br>
+                        </div>
+                    </div>
+
+                    <!--===========google map=========-->
+                    <div>
+                        <p class="text-secondary pt-5">FIND THE ADDRESS</p>
+                        <div>
+                            <div id="googleMap" style="width:100%;height:400px;"></div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!--footer top-->
+    <footer id="footer-top">
+        <div class="my-container">
+            <div class="my-row py-5">
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <h4 class="font-weight-bold text-success">Hosting Packages </h4>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="navbar-nav ">
+                                <li><a class="nav-link text-light py-0" href=""><small>Web Hosting</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Premium Hosting</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Reseller Hosting</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Master Reseller Hosting</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>VPS Hosting</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Dedicated Servers</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Cloud Hosting</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--service-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12 text-success">
+                            <h4 class="font-weight-bold text-success">Our Services</h4>
+
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="navbar-nav ">
+                                <li><a class="nav-link text-light py-0" href=""><small>Domain Registration</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Web Hosting</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Web Design</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Web Development</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Website Migration</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Business Email</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--web host bd-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="font-weight-bold text-success">Web Host BD</h4>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="navbar-nav ">
+                                <li><a class="nav-link text-light py-0" href=""><small>About Us</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Contact Us</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>News/Blog</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Payment Methods</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Awards & Reviews</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Testimonials</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Affiliate Program</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12 text-success">
+                            <h4 class="font-weight-bold text-success">Our Address</h4>
+                        </div>
+                        <div class="col-md-12 text-light">
+                            <small> 42/2, Kallyanpur Main Road<br/>
+                                Mirpur, Dhaka-1207</small>
+                            <small>
+                                Phone: +88 01799771177<br/>
+                                +88 01912310191
+                            </small>
+                            <small>
+                                webhostbd.net@gmail.com<br/>
+                                admin@webhostbd.com
+                            </small>
+                            <div class="">
+                                <a href=""><i class="text-primary rounded-circle fab fa-facebook"></i></a>
+                                <a href=""><i class="text-danger rounded-circle fab  fa-youtube"></i></a>
+                                <a href=""><i class="text-primary rounded-circle fab fa-twitter"></i></a>
+                                <a href=""><i class=" text-primary rounded-circle fab fa-linkedin"></i></a>
+                                <a href=""> <i class="text-danger rounded-circle fab fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-right pr-5  display-4"><a href="#" class="top"><i class="text-light fas fa-arrow-circle-up"></i></a></p>
+        </div>
+    </footer>
+
+    <!--footer bottom-->
+    <footer class="bg-dark" id="footer-bottom">
+        <div class="my-container">
+            <div class="my-row py-2">
+                <div class="col-8 text-light">Copyright &copy; 2018-2019 Binary Coders - All rights reserved. <small class="text-warning">Desinged& Developed By <a href="https://www.facebook.com/azizulhasan1995" target="_blank" class="text-light">Azizul Hasan</a></small></div>
+                <div class="col-4">
+                    <a href="" class="text-light">Terms of Service	 </a>
+                    <a href="" class="text-light"> | Privacy Policy	</a>
+                    <a href="" class="text-light"> | Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/jquery-3.3.1.js"></script>
+    <script src="JS/bootstrap.js"></script>
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/uikit.min.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/script1.js"></script>
+    <script src="JS/java.js"></script>
+    </body>
+</html>

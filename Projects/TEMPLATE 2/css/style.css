@@ -1,0 +1,178 @@
+*{margin:0;padding: 0;
+    box-sizing: border-box;
+}
+.col-1{ width: 8.33% }
+.col-2{ width: 16.66% }
+.col-3{ width: 25% }
+.col-4{ width: 33.33% }
+.col-5{ width:41.66% }
+.col-6{ width: 50% }
+.col-7{ width: 58.33% }
+.col-8{ width: 66.66% }
+.col-9{ width: 75% }
+.col-10{ width: 83.33% }
+.col-11{ width: 91.66% }
+.col-12{ width: 100% }
+
+[class*='col-']{
+    float: left;
+    /*border: 1px solid black;*/
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin:  0 auto;
+}
+.row:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.menu{ height: 55px;}
+.slider{ height: 350px;}
+.slider1{ height: 50px;}
+.content{ height: 200px;}
+.content2{ height: 200px;}
+.content3{ height: 200px;}
+
+nav{
+    background-color: darkslategray;
+
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+
+}
+nav ul li{
+    float: left;
+    /*border: 1px solid white;*/
+    width: 90px;
+
+
+}
+nav ul li a{
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:10px 0 0 0;
+    transition: 1s;
+    height: 55px;
+
+}
+nav ul li a:hover{
+    background-color: #36ff12;
+    color: black;
+    border-radius: 4px;
+}
+
+.logo{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.slider-section{
+    background-image: url("../images/HD-Wallpaper-Flower-Download.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box{
+    background-color:rgb(0,0,0);
+    opacity: .3;
+    height:40px;
+    width: 100%;
+    margin-top: 310px;
+
+}
+.paragraph{
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+.dot{
+    margin-left: 450px;
+    margin-top: 12px;
+    height: 30px;
+}
+.content-section{background-color: whitesmoke}
+.feature{
+    background-color: lightseagreen;
+    height: 200px;
+    color: white;
+    font-size: 75px;
+    padding-top: 60px;
+    padding-left: 55px;
+
+}
+.feature2{
+    height: 200px;
+    width: 566px;
+
+
+}
+
+.feature3{
+    background-color: yellow;
+    opacity: .7;
+    height: 200px;
+    color: black;
+    font-size: 75px;
+    padding-top: 55px;
+    padding-left: 55px;
+
+}
+.feature4{
+    height: 200px;
+}
+.feature5{
+    height: 200px;
+    width: 450px;
+    background-color: yellow;
+    opacity: .7;
+    color: black;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.box1{
+    height: 50px;
+    width: 45px;
+    background-color: yellow;
+    opacity: .7;
+}
+.box2{
+    height: 50px;
+    width: 45px;
+    background-color: black;
+    margin-top: 20px;
+}
+.box3{
+    height: 50px;
+    width: 45px;
+    background-color: black;
+    margin-top: 20px;
+}
+.icon1{
+     color:white;
+     padding-top:10px;
+     padding-left: 5px;
+
+ }
+.icon2{
+    color:white;
+    padding-top:10px;
+    padding-left: 5px;
+
+}
+.icon3{
+    color:white;
+    padding-top:10px;
+    padding-left: 1px;
+
+}
+.name{ padding-left: 15px}

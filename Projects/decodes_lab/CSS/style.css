@@ -1,0 +1,370 @@
+/*---------------------------------------------------------
+*                                                         *
+*  ***********************************                    *
+*  * THEME NAME: DECODES LAB LIMITED *                    *
+*  ***********************************                    *
+*                                                         *
+*  AUTOR NAME: AZIZUL HASAN                               *
+*  AUTHOR URL: https://www.facebook.com/azizul.bookreview *
+*  THEME VIRSION: 1.0.0                                   *
+*                                                         *
+* --------------------------------------------------------*/
+
+
+
+
+
+
+/*===================body=========================*/
+
+body{
+    background: white;
+    border: 3px solid white;
+    font-family:"sans-serif";
+}
+
+/*===================================nav======================*/
+
+
+.nav_bg{
+    background: rgba(0,0,0, .6);
+    transition: 1s;
+
+}
+
+nav ul li a{
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: 1s;
+    color: white;
+    width: 95px;
+
+}
+#ul-hover li a:hover{
+    color: black;
+    transform: scaleX(1.1);
+    background: white;
+    border-radius:10px;
+}
+
+.nav-active{
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.toggler-icon{
+    color: white;
+    font-family: "sans-serif";
+
+}
+.toggler {
+
+    font-size: 1.25rem;
+    line-height: 1.70;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+}
+
+.toggler:hover, .toggler:focus {
+    text-decoration: none;
+}
+
+.toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+/*nav bg other page except index page */
+.nav_bg_other{
+    background: black;
+    transition: 1s;
+}
+/*------------------------start carousel-------------*/
+#carousel_section{
+    position: relative;
+}
+#carousel_section.overlay{
+    background: rgba(0,0,0,.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.btn_hover:hover{
+    background: firebrick;
+    color: white;
+}
+
+.carousel_heading{
+    font-family:"Bodoni MT" ;
+}
+
+/*-----------------start feature------------------*/
+
+.feature_bg{
+    background-color: black;
+
+}
+.feature_img{
+    height: 40px;
+    width: 50px;
+}
+.feature_h4{
+    text-decoration: none;
+    color: white;
+    transition:1s;
+}
+.feature_h4:hover{
+    color: firebrick;
+    text-decoration: none;
+}
+/*=========================== end feature==================*/
+
+/*==================about section======================*/
+
+#about_section{
+    font-family: sans-serif;
+}
+#about_section h1{
+    font-family: "Arial Rounded MT Bold";
+}
+#about_section .about-col .img {
+    position: relative;
+}
+#about_section .about-col .icon {
+    width: 64px;
+    height: 64px;
+    padding-top: 8px;
+    text-align: center;
+    position: absolute;
+    background-color: #ca402d;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid #fff;
+    left: calc( 50% - 32px);
+    bottom: -30px;
+    transition: .3s;
+}
+
+#about_section .about-col:hover .icon{
+    background-color: white;
+    color: red;
+
+}
+
+.about-col .about_h2{
+    text-decoration: none;
+    color: black;
+    transition:1s;
+}
+.about_h2:hover{
+    color: firebrick;
+    text-decoration: none;
+}
+.about-col p{
+    font-family: "Fira Code";
+}
+
+
+/*========================end about====================*/
+
+/*------------------service-------------*/
+
+
+.service_link{
+    text-decoration: none;
+    color: black;
+    transition:.3s;
+    font-size: 15px;
+}
+.service_link:hover{
+    color: firebrick;
+    text-decoration: none;
+
+    font-size: 15px;
+}
+/*--------------------end service-------------*/
+/*----------------------contact--------------------*/
+.contact_bg{
+    background-color: rgb(247,247,247);
+
+
+}
+/*--------------------------blog page--------------*/
+.blog_header_bg{
+    background-color: rgb(247,247,247);
+}
+
+/*---------------------footer section------------------*/
+
+
+#footer-top .top{
+    font-size: 25px;
+
+}
+#footer-top {
+    background-color: #111111;
+}
+.popular_coureses{
+    text-decoration: none;
+    color: white;
+    transition:.6s;
+}
+.popular_coureses:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+
+}
+#footer_bottom{
+    background-color: rgb(28,28,28);
+}
+/*---------------------------icon----------------------*/
+.icons{
+    z-index: 999;
+}
+
+.icons ul{
+
+    overflow: hidden;
+    width: 62px;
+}
+.icons{
+    position: fixed;
+    top: 20%;
+    right: 0px;
+
+
+}
+.icons li {
+    list-style-type: none;
+    padding:3px;
+
+}
+
+.icons li a {
+    list-style-type: none;
+    transition: .6s;
+    color: white;
+}
+.icons li a {
+    font-size: 20px;
+    display: block;
+}
+.icons li a:hover {
+    padding:0 10px 0 0;
+
+}
+
+.icons .facebook {
+    background: #0062cc;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .youtube {
+    background: red;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .twitter {
+    background: deepskyblue;
+    border-radius: 5px 0 0 5px ;
+}
+.icons .linkedin {
+    background: royalblue;
+    border-radius: 5px 0 0 5px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------menu media--------------------*/
+/*nav_item_media*/
+
+@media (min-width: 768px) and  (max-width: 940px){
+    .nav_item_media{
+        display: none;
+    }
+}
+
+/*carousel image media*/
+@media (min-width: 200px) and  (max-width: 652px){
+    .image_media{
+        width: 100%;
+        height: 400px;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+    }
+    .carousel_heading{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btn_margin_bottom{
+        margin-bottom: 32px;
+    }
+
+
+}
+@media (min-width: 653px) and  (max-width: 767.98px){
+    .image_media{
+        width: 100%;
+        height: 500px;
+    }
+    .btn_margin_bottom{
+        margin-bottom: 60px;
+    }
+
+}
+@media (min-width: 768px) {
+    .image_media{
+        width: 100%;
+        height:650px ;
+        font-family:"Fira Code";
+    }
+    .btn_margin_bottom{
+        margin-bottom: 150px;
+    }
+
+}
+
+
+/*navbar toggler icon*/
+
+@media (min-width: 768px){
+    .toggler-icon {
+        display: none;
+    }
+    .toggler{
+        display: none;
+    }
+
+
+}
+/*about media*/
+@media (max-width: 768px){
+    .about_image_media{
+        width: 100%;
+
+    }
+
+}
+.sete-ha{
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #000;
+    border-bottom: 2px;
+    width: 23%;
+    padding: 10px 20px;
+}
+
+
+
+

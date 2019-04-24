@@ -1,0 +1,82 @@
+body{
+    background:rosybrown;
+}
+
+
+.icons{
+    font-size: 20px;
+    display: flex;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    flex-direction: column;
+    /*width: 300px;*/
+    border: 1px solid white;
+
+
+}
+
+.box-one{
+    height: 0;
+    width: 200px;
+    border-bottom: 20px  solid transparent;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+
+    /*border-top:100px solid transparent ;*/
+    border-left: 10px  solid transparent;
+    border-right: 10px  solid transparent;
+    border-bottom-color: black;
+    margin-left: 50px;
+    float: right;
+    margin-top: 15px;
+    position: absolute;
+    z-index: 999;
+}
+.card{
+    position: relative;
+    margin-top: 35px;
+}
+
+.box-two{
+    height: 0;
+    width: 80px;
+    color: white;
+    /*font-size: 12px;*/
+    /*text-align: center;*/
+    border-bottom: 25px  solid transparent;
+    border-top:25px solid transparent ;
+    border-left: 10px  solid transparent;
+    border-right: 10px  solid transparent;
+    border-color:darkslategray;
+    /*margin-left: 10px;*/
+    border-radius:  200% 200% 5% 5%;
+    float: right;
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 90px;
+    z-index: 999;
+
+}
+
+.box-three{
+    height: 0;
+    width: 0;
+    border-bottom: 40px  solid transparent;
+    border-left: 30px  solid transparent;
+    border-right: 30px  solid transparent;
+    border-bottom-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 999;
+}
+.card-1{
+    position: relative;
+
+
+}
+
+
+

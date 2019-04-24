@@ -1,0 +1,160 @@
+
+/*---------------------------------------------------------
+*                                                         *
+*  ***********************************                    *
+*  * THEME NAME: DECODES LAB LIMITED *                    *
+*  ***********************************                    *
+*                                                         *
+*  AUTOR NAME: AZIZUL HASAN                               *
+*  AUTHOR URL: https://www.facebook.com/azizul.bookreview *
+*  THEME VIRSION: 1.0.0                                   *
+*                                                         *
+* --------------------------------------------------------*/
+
+
+
+
+/*ABOUT PAGE*/
+#page-header {
+    background-image: url("../images/image2.jpeg");
+    font-family: "Arial Rounded MT Bold";
+    background-size: cover;
+    height: 300px;
+    padding-top: 50px;
+    background-attachment: fixed;
+;
+}
+
+
+
+
+
+/*===========================about page==================*/
+
+.portfolio-menu ul li{
+    border: 1px solid red;
+    background: #0062cc;
+    color: white;
+    transition: 1s;
+    display: inline-block;
+
+
+
+}
+.portfolio-menu ul li:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+#side_menu ul li a:hover{color: black;}
+
+
+#footer-top .top{
+    font-size: 25px;
+}
+
+
+/*-------------------card----------------*/
+
+
+.card_header{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Bradley Hand ITC";
+}
+.card_header:hover{
+    text-decoration: none;
+    color:firebrick;
+
+}
+
+/*---------------------------service page-----------------*/
+.section-header h3::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: firebrick;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.section-header h4::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: firebrick;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.border_bottom{
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 0;
+    color: black;
+}
+/*--------------------------join page---------------------*/
+#join_header {
+    background-image: url("../images/image2.jpeg");
+    font-family: "Arial Rounded MT Bold";
+    background-size: cover;
+    height: 200px;
+    padding-top: 50px;
+    background-attachment: fixed;
+;
+}
+
+
+/*===================media query========================*/
+
+
+@media (min-width: 200px) and  (max-width:555px){
+    #page-header{
+        background-size: cover;
+        height: 600px;
+    }
+
+}
+@media (min-width: 556px) and  (max-width:767px){
+    #page-header{
+        background-size: cover;
+        height: 500px;
+    }
+
+}
+
+@media (min-width: 768px) and  (max-width:991px){
+    #page-header{
+        background-size: cover;
+        height: 400px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

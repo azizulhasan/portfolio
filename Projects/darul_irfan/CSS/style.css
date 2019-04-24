@@ -1,0 +1,181 @@
+/*===================body=========================*/
+
+body{
+    background: lightgrey;
+    border: 3px solid white;
+    font-family:"Berlin Sans FB";
+}
+.my_container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.my_row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+/*n===================================nav======================*/
+.nav-bg{
+    background: black;
+    transition: 1s;
+
+}
+nav ul li a{
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: 1s;
+    color: white;
+
+}
+#ul-hover li a:hover{
+    color: black;
+    transform: scaleX(1.1);
+    background: white;
+    border-radius:10px;
+
+
+}
+/*.dropdown{*/
+    /*transition: 1s;*/
+/*}*/
+.dropdown:hover ul{
+    display: block;
+    width: 300px;
+    transform: translateY(-12px);
+    transform: translateX(-50px);
+    border-radius: 10px;
+    /*border: 4px dotted white;*/
+    background: royalblue;
+    color: whitesmoke;
+    /*padding-:10px;*/
+    /*padding-bottom: 10px;*/
+
+}
+.dropdown .dropdown-menu .dropdown-item{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    display: block;
+    background: royalblue;
+    color: white;
+    border: 1px solid white;
+
+}
+.nav-active{
+    background: gray;
+    color:white;
+    border: 1px solid white;
+}
+
+
+/*==================carousel======================*/
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider arrow skin 093 css*/
+.jssora093 {display:block;position:absolute;cursor:pointer;}
+.jssora093 .c {fill:none;stroke:#fff;stroke-width:400px;stroke-miterlimit:10;}
+.jssora093 .a {fill:none;stroke:#fff;stroke-width:400px;stroke-miterlimit:10;}
+.jssora093:hover {opacity:.8;}
+.jssora093.jssora093dn {opacity:.6;}
+.jssora093.jssora093ds {opacity:.3;pointer-events:none;}
+
+/*jssor slider thumbnail skin 101 css*/
+.jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+.jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+.jssort101 .a {fill:none;stroke:#fff;stroke-width:400px;stroke-miterlimit:10;visibility:hidden;}
+.jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+.jssort101 .p:hover{padding:2px;}
+.jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+.jssort101 .p:hover.pdn{padding:0;}
+.jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+.jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+.jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+.jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+.jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
+
+
+
+/*========================end carousel====================*/
+
+
+/*===========================result page==================*/
+
+    .portfolio-menu ul li{
+        border: 1px solid red;
+        background: #0062cc;
+        color: white;
+        transition: 1s;
+        display: inline-block;
+
+
+
+    }
+    .portfolio-menu ul li:hover{
+        background: white;
+        color: black;
+        cursor: pointer;
+    }
+
+
+
+
+#side_menu ul li a:hover{color: black;}
+
+
+#footer-top .top{
+    font-size: 25px;
+}
+
+
+/*===================media query========================*/
+@media (min-width:776px) and (max-width:1010px){
+    #search-bar{
+        width: 4%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1005px){
+    #menu-media-query {
+        display: none;
+    }
+    #menu-media-query1{
+        display: none;
+    }
+    #menu-media-query2{
+        display: none;
+    }
+}
+ /*table media*/
+@media (max-width: 767.98px) {
+    .table-responsive-md {
+        display: block;
+        width: 100%;
+        font-size: 7px;
+        padding: 0;
+        margin: 0;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-responsive-md > .table-bordered {
+        border: 0;
+    }
+}
+

@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="IMG/favicon.jpg">
+        <title>Domain & Web Hosting</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/bootstrap.css">
+        <link rel="stylesheet" href="CSS/uikit.min.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/hosting.css">
+    </head>
+    <body>
+
+    <section class="bg-dark h-20">
+        <div class="my-container">
+            <div class="my-row">
+                <div class="col-12 col-md-3">
+                    <div class="navbar navbar-expand">
+                        <ul class="navbar-nav">
+                            <a class=" pl-0 ml-0  text-light" href=""> <i class="fab fa-facebook"></i></a>
+                            <a class=" px-1 text-light" href=""><i class="fab  fa-youtube"></i></a>
+                            <a class=" px-1 text-light" href=""><i class="fab fa-twitter"></i> </a>
+                            <a class=" px-1 text-light" href=""><i class="fab fa-linkedin"></i></a>
+                            <a class=" px-1 text-light" href=""><i class="fab fa-google-plus"></i>  </a>
+                            <li class="nav-item pl-3 d-md-none text-light"><i class="fas fa-phone-square pr-1 text-bold"></i>8801928907224</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9">
+                    <div class="navbar navbar-expand">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item px-1  text-light d-none d-lg-block"> <i class="fas fa-phone-square px-1"></i>8801928907224</li>
+                            <li class="nav-item px-1 d-none d-lg-block"><a class=" text-light" href=""> <i class="fa fa-envelope-open px-1"></i>support@binarycoders.org</a></li>
+                            <li class="nav-item pl-1 d-none d-lg-block"><a class=" text-light" href=""  data-target="#myModal" data-toggle="modal"> <i class="fas fa-user px-1"></i>Login/Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--========================MODAL===================-->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="btn btn-success text-center text-light px-5 " data-toggle="modal" data-target="#myLogin">Login</a>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title bg-primary text-light px-2 rounded text-center">REGISTER</h1>
+                            <form action="" method="post">
+                                <div class="form-group">
+                                    <label for="firstName" class="col-form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName" class="col-form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="col-form-label">Email </label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-form-label">Password </label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phoneNumber" class="col-form-label">Phone Number </label>
+                                    <input type="number" class="form-control" id="phoneNumber">
+                                </div>
+                                <div class="form-group">
+                                    <label for="address" class="col-form-label"> Address</label>
+                                    <textarea type="text" class="form-control" id="address"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="radio" name="gender" value="male"> Male
+                                    <input type="radio" name="gender" value="female"> Female
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label">District Name  </label>
+                                    <select class="form-control">
+                                        <option>-----Select Your District Name---</option>
+                                        <option value="">Dhaka</option>
+                                        <option value="">Narayangong</option>
+                                        <option value="">Dohar</option>
+                                        <option value="">Sylhet</option>
+                                        <option value="">Savar</option>
+                                        <option value="">Keranigong</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" name="agree" value="1"> I Agree
+                                </div>
+                                <div class="form-group">
+                                    <input type="file" class="form-control-file" name="image" accept="image/*" multiple/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label"></label>
+                                    <input type="button" class="btn btn-success btn-block" value="Submit" >
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="modal-footer">-->
+                    <!--<a href="" class="btn btn-success">SUBMIT</a>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+
+    <!--========================login modal-->
+    <div class="modal fade" id="myLogin">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title bg-primary text-light px-2 rounded text-center">Login</h1>
+                            <form action="" method="post">
+                                <div class="form-group">
+                                    <label for="email" class="col-form-label">Email </label>
+                                    <input type="email" class="form-control" id="email1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-form-label">Password </label>
+                                    <input type="password" class="form-control" id="password1">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="" class="btn btn-success btn-block">SUBMIT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--end modal===========================-->
+
+    <!--=====================MAIN MENU=====================-->
+
+    <nav class="navbar navbar-expand-md navbar-dark " uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up" >
+        <div class="my-container  ">
+            <div class="my-row">
+                <a class="navbar-brand logo " href="INDEX.html"><img src="IMG/Logo-for-web-top.png" height="50" width="241" class="img-fluid"/></a>
+
+                <button class="navbar-toggler  h-25 mt-2 ml-auto " data-target="#navCollapse" data-toggle="collapse"><span class="navbar-toggler-icon "></span></button>
+
+
+                <div class="collapse navbar-collapse" id="navCollapse">
+                    <div class="ml-auto nav-font" >
+                        <ul class="navbar-nav">
+                            <li class="nav-item "><a class=" nav-link nav-active   text-dark " href="">HOME</a></li>
+
+                            <!--hosting dropdown-->
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link  text-dark" data-toggle="dropdown" href="hosting.html">HOSTING</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="hosting.html">WEB HOSTING</a></li>
+                                    <li><a class="dropdown-item" href="p-hosting.html">PREMIUM HOSTING</a></li>
+                                    <li><a class="dropdown-item" href="Resel-host.html">RESELLER HOSTING</a></li>
+                                    <li><a class="dropdown-item" href="">VPS UNMANAGED</a></li>
+                                    <li><a class="dropdown-item" href="">VPS MANAGED</a></li>
+                                    <li><a class="dropdown-item" href="">DEDICATED SERVER</a></li>
+                                </ul>
+                            </li>
+                            <!--domain dorpdown-->
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-dark nav-hover " data-toggle="dropdown" href="">DOMAIN</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="domain-regist.html" class="dropdown-item">DOMAIN REGISTRATION</a></li>
+                                    <li><a href="bd-domain.regist.html" class="dropdown-item">.BD DOMAIN REGISTRATION</a></li>
+                                    <li><a href="reseller-registration.html" class="dropdown-item">RESELLER REGISTRATION</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-dark " data-toggle="dropdown" href="about.html">ABOUT</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="about.html" class="dropdown-item ">ABOUT US</a></li>
+                                    <li><a href="contact-us.html" class="dropdown-item">CONTACT US</a></li>
+                                    <li><a href="payment-option.html" class="dropdown-item">PAYMENT OPTION</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item "><a class=" nav-link  text-dark" href="web-design.html">WEB DESIGN</a></li>
+                            <li class="nav-item "><a class=" nav-link  text-dark" href="blog.html">BLOG</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--SEARCH SECTION-->
+    <section id="search">
+        <div class="search-image">
+            <div class="img-overlay">
+                <h1 class="text-center   " style="font-family:'Arial Bold BT'; padding-top:70px" ><a class="text-light" href="http://binarycoders.supersite2.srsportal.com">SEARCH YOUR PERFECT DOMAIN. <small class="">CLICK HERE</small> </a></h1>
+
+            </div>
+        </div>
+    </section>
+    <!--end search section-->
+
+    <!--Site category-->
+    <section id="siteCategory" class="py-5">
+        <div class="my-container">
+            <div class="my-row">
+                <div class="col">
+                    <h2 class=" text-danger font-weight-bold text-center">.COM .NET .ORG .INFO .BIZ DOMAIN ONLY  950 TK</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <hr/>
+        <div class="my-container">
+            <div class="my-row">
+                <div class="col">
+                    <h1 class="font-weight-bold text-info text-center">WE HAVE PERFECT WEB HOSTING PACKAGE FOR YOU.</h1>
+                    <h5 class="  text-center">We provide SSD Hosting with Top security and 99.99% up-time. We are top Domain Hosting provider in Bangladesh.</h5>
+                </div>
+            </div>
+        </div>
+        <hr/>
+    </section>
+    <!--PLAN SECTION-->
+    <section id="service-plan">
+        <div class="my-container py-5">
+            <div class="my-row">
+                <div class="col-md-6 col-lg-3 mb-sm-2 price-section">
+                    <div class="card text-center">
+                        <div class="card-header  s-bg-color py-0"><h2 class="text-light"> Plan 1</h2></div>
+                        <div class="card-header py-0  p-bg-color ">
+                            <h2 class="mx-0  text-light"> TK.1000 /Year</h2>
+                            <button href="" class="btn bg-light font-weight-bold px-5  ">ORDER NOW</button>
+
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-text">
+                                <li class="list-group-item py-1">500 MB SSD Storage</li>
+                                <li class="list-group-item py-1">15 GB Bandwidth Monthly</li>
+                                <li class="list-group-item py-1">RAID 10 SSD Server</li>
+                                <li class="list-group-item py-1 ">LiteSpeed Web Server</li>
+                                <li class="list-group-item py-1 ">No Addon Domain</li>
+                                <li class="list-group-item py-1  text-success">No FREE Domain This Plan</li>
+                                <li class="list-group-item py-1 text-success">FREE SSL Life Time</li>
+                                <li class="list-group-item py-1 ">FREE Weekly Backup</li>
+                                <li class="list-group-item py-1 ">Unlimited Sub Domains</li>
+                                <li class="list-group-item py-1 ">Unlimited Email Accounts</li>
+                                <li class="list-group-item py-1 ">Unlimited Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-sm-2 price-section">
+                    <div class="card text-center">
+                        <div class="card-header  s-bg-color py-0"><h2 class="text-light"> Plan 1</h2></div>
+                        <div class="card-header py-0  p-bg-color ">
+                            <h2 class="mx-0  text-light"> TK.1000 /Year</h2>
+                            <button href="" class="btn bg-light font-weight-bold px-5  ">ORDER NOW</button>
+
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-text">
+                                <li class="list-group-item py-1">500 MB SSD Storage</li>
+                                <li class="list-group-item py-1">15 GB Bandwidth Monthly</li>
+                                <li class="list-group-item py-1">RAID 10 SSD Server</li>
+                                <li class="list-group-item py-1 ">LiteSpeed Web Server</li>
+                                <li class="list-group-item py-1 ">No Addon Domain</li>
+                                <li class="list-group-item py-1  text-success">No FREE Domain This Plan</li>
+                                <li class="list-group-item py-1 text-success">FREE SSL Life Time</li>
+                                <li class="list-group-item py-1 ">FREE Weekly Backup</li>
+                                <li class="list-group-item py-1 ">Unlimited Sub Domains</li>
+                                <li class="list-group-item py-1 ">Unlimited Email Accounts</li>
+                                <li class="list-group-item py-1 ">Unlimited Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-sm-2 price-section">
+                    <div class="card text-center">
+                        <div class="card-header  s-bg-color py-0"><h2 class="text-light"> Plan 1</h2></div>
+                        <div class="card-header py-0  p-bg-color ">
+                            <h2 class="mx-0  text-light"> TK.1000 /Year</h2>
+                            <button href="" class="btn bg-light font-weight-bold px-5  ">ORDER NOW</button>
+
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-text">
+                                <li class="list-group-item py-1">500 MB SSD Storage</li>
+                                <li class="list-group-item py-1">15 GB Bandwidth Monthly</li>
+                                <li class="list-group-item py-1">RAID 10 SSD Server</li>
+                                <li class="list-group-item py-1 ">LiteSpeed Web Server</li>
+                                <li class="list-group-item py-1 ">No Addon Domain</li>
+                                <li class="list-group-item py-1  text-success">No FREE Domain This Plan</li>
+                                <li class="list-group-item py-1 text-success">FREE SSL Life Time</li>
+                                <li class="list-group-item py-1 ">FREE Weekly Backup</li>
+                                <li class="list-group-item py-1 ">Unlimited Sub Domains</li>
+                                <li class="list-group-item py-1 ">Unlimited Email Accounts</li>
+                                <li class="list-group-item py-1 ">Unlimited Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-sm-2 price-section">
+                    <div class="card text-center">
+                        <div class="card-header  s-bg-color py-0"><h2 class="text-light"> Plan 1</h2></div>
+                        <div class="card-header py-0  p-bg-color ">
+                            <h2 class="mx-0  text-light"> TK.1000 /Year</h2>
+                            <button href="" class="btn bg-light font-weight-bold px-5  ">ORDER NOW</button>
+
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-text">
+                                <li class="list-group-item py-1">500 MB SSD Storage</li>
+                                <li class="list-group-item py-1">15 GB Bandwidth Monthly</li>
+                                <li class="list-group-item py-1">RAID 10 SSD Server</li>
+                                <li class="list-group-item py-1 ">LiteSpeed Web Server</li>
+                                <li class="list-group-item py-1 ">No Addon Domain</li>
+                                <li class="list-group-item py-1  text-success">No FREE Domain This Plan</li>
+                                <li class="list-group-item py-1 text-success">FREE SSL Life Time</li>
+                                <li class="list-group-item py-1 ">FREE Weekly Backup</li>
+                                <li class="list-group-item py-1 ">Unlimited Sub Domains</li>
+                                <li class="list-group-item py-1 ">Unlimited Email Accounts</li>
+                                <li class="list-group-item py-1 ">Unlimited Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row  pt-md-4 pt-sm-2">
+
+                <!--2nd row========================-->
+                <div class="col-md-6 col-lg-3 mb-sm-2  price-section">
+                    <div class="card text-center">
+                        <div class="card-header  s-bg-color py-0"><h2 class="text-light"> Plan 1</h2></div>
+                        <div class="card-header py-0  p-bg-color ">
+                            <h2 class="mx-0  text-light"> TK.1000 /Year</h2>
+                            <button href="" class="btn bg-light font-weight-bold px-5  ">ORDER NOW</button>
+
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-text">
+                                <li class="list-group-item py-1">500 MB SSD Storage</li>
+                                <li class="list-group-item py-1">15 GB Bandwidth Monthly</li>
+                                <li class="list-group-item py-1">RAID 10 SSD Server</li>
+                                <li class="list-group-item py-1 ">LiteSpeed Web Server</li>
+                                <li class="list-group-item py-1 ">No Addon Domain</li>
+                                <li class="list-group-item py-1  text-success">No FREE Domain This Plan</li>
+                                <li class="list-group-item py-1 text-success">FREE SSL Life Time</li>
+                                <li class="list-group-item py-1 ">FREE Weekly Backup</li>
+                                <li class="list-group-item py-1 ">Unlimited Sub Domains</li>
+                                <li class="list-group-item py-1 ">Unlimited Email Accounts</li>
+                                <li class="list-group-item py-1 ">Unlimited Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-sm-2 price-section">
+                    <div class="card text-center">
+                        <div class="card-header  s-bg-color py-0"><h2 class="text-light"> Plan 1</h2></div>
+                        <div class="card-header py-0  p-bg-color ">
+                            <h2 class="mx-0  text-light"> TK.1000 /Year</h2>
+                            <button href="" class="btn bg-light font-weight-bold px-5  ">ORDER NOW</button>
+
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-text">
+                                <li class="list-group-item py-1">500 MB SSD Storage</li>
+                                <li class="list-group-item py-1">15 GB Bandwidth Monthly</li>
+                                <li class="list-group-item py-1">RAID 10 SSD Server</li>
+                                <li class="list-group-item py-1 ">LiteSpeed Web Server</li>
+                                <li class="list-group-item py-1 ">No Addon Domain</li>
+                                <li class="list-group-item py-1  text-success">No FREE Domain This Plan</li>
+                                <li class="list-group-item py-1 text-success">FREE SSL Life Time</li>
+                                <li class="list-group-item py-1 ">FREE Weekly Backup</li>
+                                <li class="list-group-item py-1 ">Unlimited Sub Domains</li>
+                                <li class="list-group-item py-1 ">Unlimited Email Accounts</li>
+                                <li class="list-group-item py-1 ">Unlimited Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-sm-2 price-section">
+                    <div class="card text-center">
+                        <div class="card-header  s-bg-color py-0"><h2 class="text-light"> Plan 1</h2></div>
+                        <div class="card-header py-0  p-bg-color ">
+                            <h2 class="mx-0  text-light"> TK.1000 /Year</h2>
+                            <button href="" class="btn bg-light font-weight-bold px-5  ">ORDER NOW</button>
+
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-text">
+                                <li class="list-group-item py-1">500 MB SSD Storage</li>
+                                <li class="list-group-item py-1">15 GB Bandwidth Monthly</li>
+                                <li class="list-group-item py-1">RAID 10 SSD Server</li>
+                                <li class="list-group-item py-1 ">LiteSpeed Web Server</li>
+                                <li class="list-group-item py-1 ">No Addon Domain</li>
+                                <li class="list-group-item py-1  text-success">No FREE Domain This Plan</li>
+                                <li class="list-group-item py-1 text-success">FREE SSL Life Time</li>
+                                <li class="list-group-item py-1 ">FREE Weekly Backup</li>
+                                <li class="list-group-item py-1 ">Unlimited Sub Domains</li>
+                                <li class="list-group-item py-1 ">Unlimited Email Accounts</li>
+                                <li class="list-group-item py-1 ">Unlimited Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-sm-2 price-section">
+                    <div class="card text-center">
+                        <div class="card-header  s-bg-color py-0"><h2 class="text-light"> Plan 1</h2></div>
+                        <div class="card-header py-0  p-bg-color ">
+                            <h2 class="mx-0  text-light"> TK.1000 /Year</h2>
+                            <button href="" class="btn bg-light font-weight-bold px-5  ">ORDER NOW</button>
+
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-text">
+                                <li class="list-group-item py-1">500 MB SSD Storage</li>
+                                <li class="list-group-item py-1">15 GB Bandwidth Monthly</li>
+                                <li class="list-group-item py-1">RAID 10 SSD Server</li>
+                                <li class="list-group-item py-1 ">LiteSpeed Web Server</li>
+                                <li class="list-group-item py-1 ">No Addon Domain</li>
+                                <li class="list-group-item py-1  text-success">No FREE Domain This Plan</li>
+                                <li class="list-group-item py-1 text-success">FREE SSL Life Time</li>
+                                <li class="list-group-item py-1 ">FREE Weekly Backup</li>
+                                <li class="list-group-item py-1 ">Unlimited Sub Domains</li>
+                                <li class="list-group-item py-1 ">Unlimited Email Accounts</li>
+                                <li class="list-group-item py-1 ">Unlimited Databases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--======================end service plan===-->
+
+    <!--=============help section===============-->
+    <section id="help-section">
+        <div class="my-container">
+            <div class="my-row">
+                <div class="col pt-3 pb-1">
+                    <p class="help-color text-center">NEED HELP? CALL OUR SUPPORT AT<strong>+88 01928907224</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============plan category============ -->
+
+
+    <section id="plan-category" class="pb-4">
+        <div class="my-container ">
+            <div class="my-row pt-4 pb-3">
+                <div class="col">
+                    <h1 class="font-weight-bold text-center">ALL OUR PLANS INCLUDE</h1>
+
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--2nd row-->
+
+            <div class="my-row pt-4">
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css-2nd-row">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css-2nd-row">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css-2nd-row">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css-2nd-row">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css-2nd-row">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card border-2 plan-section-css-2nd-row">
+                        <div class="card-body p-0  plan-bg text-center">
+                            <i class="fab fa-wordpress display-4 "></i>
+                            <p class="display-5 ">FREE<br/> DOMAIN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end plan category-->
+
+    <!--SSD section-->
+    <section class="py-5" id="ssd-section">
+        <div class="my-container">
+            <div class="my-row">
+                <div class="col">
+                    <h1 class="text-info text-center">SSD WEB HOSTING BANGLADESH (USA SERVER)</h1>
+                    <p class="text-justify">
+                        Web Host BD is Top Web Hosting Company in Bangladesh. We are Bangladeshi web hosting company. We provide domain registration and SSD web hosting service in Bangladesh. We use USA Data-center and have USA based powerful Hosting server. Our USA located servers help our clients to get secure web hosting service from us. We provide domain registration service and web hosting service both. Our dedicated customer support team helps our valuable clients immediately any kinds of hosting and domain related troubles. If you want to get best quality and secure web hosting from Bangladesh at reasonable price and full satisfaction, Web Host BD should be your first choice without any doubt. Web Host BD is the best web Hosting Company in Bangladesh. You can get shared hosting, VPS, Dedicated server from us. We have been providing secure, fast and reliable web hosting in Bangladesh since 2012. We have 3000+ Bangladeshi website hosted in our server. We give you 30 days Money-back Guarantee for all our shared hosting Plans. Get started in less than 60 seconds. Pick a plan above to order!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--&lt;!&ndash;HOSTING SERVICE SECTION&ndash;&gt;-->
+
+
+    <section id="hosting-section" class="">
+        <div class="my-container  py-5">
+            <div class="my-row pb-3">
+                <div class="col">
+                    <h1 class="text-center text-primary font-weight-bold">WHAT MAKES OUR HOSTING SERVICE BEST?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg align-self-start">
+                                <i class=" align-self-start fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateTop justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg align-self-start">
+                                <i class=" align-self-start fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateTop justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg align-self-start">
+                                <i class=" align-self-start fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateTop justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <!--2nd row-->
+            <div class="row py-3">
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg ">
+                                <i class="  fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateMiddle justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg align-self-start">
+                                <i class=" align-self-start fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateMiddle justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg align-self-start">
+                                <i class=" align-self-start fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateMiddle justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <!--3rd row-->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg align-self-start">
+                                <i class=" align-self-start fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateTop justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg align-self-start">
+                                <i class=" align-self-start fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateTop justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-row">
+                        <div class="b-hover pt-2">
+                            <div class="hosting-icon-bg align-self-start">
+                                <i class=" align-self-start fas fa-dollar-sign icon-padding "></i>
+                            </div>
+                        </div>
+                        <p class="pl-3 align-self-end animateTop justify-content-between">30 Day Money-back Guarantee
+                            <small>We are offering 30 days money-back guarantee. 100% refund.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!--END HOSTING SERVICE SECTION-->
+
+    <!--QUESTION SECTION-->
+    <section id="question-section">
+        <div class="my-container">
+            <div class="my-row pt-4">
+                <div class="col-md-6">
+                    <h2 class="text-info text-center" >HAVE QUESTIONS?</h2>
+                    <div class="accordion" id="bitm">
+                        <div class="card  " role="tab" class="">
+                            <div class="card-header ">
+                                <i class="far fa-plus-square pr-3"></i>
+                                <a href="#one " class="text-dark" data-toggle="collapse">Why you choose us?</a>
+                            </div>
+                            <div class="collapse  " id="one" data-parent="#bitm">
+                                <div class="card-body accordion-bg">
+                                    <small class="text-secondary">Domain and Web Hosting Bangladesh. We provide reliable domain and web hosting in Bangladesh. You can Get your right domain name and hosting plan here.</small>
+                                    <ul class="pt-3">
+                                        <li><small>Reasonable price and Best hosting plan provider.</small></li>
+                                        <li><small>RVarious payment methods like bKash, Paypal, Skrill, Payoneer.</small></li>
+                                        <li><small>Backups can be restored from our backups, cPanel backup.</small></li>
+                                        <li><small>You can contact us via live chat, Phones, email and skype.</small></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--2nd question-->
+                            <div class="card " role="tab" class="">
+                                <div class="card-header">
+                                    <i class="far fa-plus-square pr-3"></i>
+
+                                    <a href="#two " class="text-dark" data-toggle="collapse">Need any help?</a>
+                                </div>
+                                <div class="collapse " id="two" data-parent="#bitm">
+                                    <div class="card-body accordion-bg">
+                                        <small >Our customer care agents and staff will provide the highest level of attention and dedication to all of our customers. Call us freely for any kind of help. Call us: 01912 310191, 01722618367</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--3rd question-->
+                            <div class="card " role="tab" class="">
+                                <div class="card-header">
+                                    <i class="far fa-plus-square pr-3"></i>
+                                    <a href="#three " class="text-dark" data-toggle="collapse">Why you choose us?</a>
+                                </div>
+                                <div class="collapse " id="three" data-parent="#bitm">
+                                    <div class="card-body accordion-bg">
+                                        <small class="text-secondary">Domain and Web Hosting Bangladesh. We provide reliable domain and web hosting in Bangladesh. You can Get your right domain name and hosting plan here.</small>
+                                        <ul class="pt-3">
+                                            <li><small>Reasonable price and Best hosting plan provider.</small></li>
+                                            <li><small>RVarious payment methods like bKash, Paypal, Skrill, Payoneer.</small></li>
+                                            <li><small>Backups can be restored from our backups, cPanel backup.</small></li>
+                                            <li><small>You can contact us via live chat, Phones, email and skype.</small></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--4th question-->
+                            <div class="card " role="tab" class="">
+                                <div class="card-header">
+                                    <i class="far fa-plus-square pr-3"></i>
+                                    <a href="#four " class="text-dark" data-toggle="collapse">Need any help?</a>
+                                </div>
+                                <div class="collapse " id="four" data-parent="#bitm">
+                                    <div class="card-body accordion-bg">
+                                        <small >Our customer care agents and staff will provide the highest level of attention and dedication to all of our customers. Call us freely for any kind of help. Call us: 01912 310191, 01722618367</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-info text-center" >OUR TUTORIALS</h2>
+                    <div class="card-body pt-0">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HOSTING  </a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">DOMAIN</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">DEVELOPMENT</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                                <div class="row tutorial-ques-bg border text-light" >
+                                    <div class="col-1 pt-1"><i class="fas fa-video"></i></div>
+                                    <div class="col-9 pt-1">How to order a free domain ?</div>
+                                    <div class="col-2"><a class="btn btn-primary" href="">video</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end tutorial section-->
+
+    <!--SERVICE OFFER SECTION-->
+
+    <section class="" id="service-offer">
+        <div class="img1-overlay">
+        <div class="my-container ">
+            <div class="my-row ">
+                <div class="col-md-12">
+                    <div class="card-body text-white">
+                        <nav class="">
+                            <div class="nav nav-tabs  " id="" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-hosting-tab" data-toggle="tab" href="#hosting" role="tab" aria-controls="nav-home1" aria-selected="true">HOSTING</a>
+                                <a class="nav-item  nav-link px-5" id="nav-domain-tab" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile1" aria-selected="false">DOMAINS</a>
+                                <a class="nav-item  nav-link " id="nav-website-tab" data-toggle="tab" href="#nav-website" role="tab" aria-controls="nav-contact1" aria-selected="false">WEBSITE</a>
+                                <a class="nav-item  nav-link px-5" id="nav-ecommerce-tab" data-toggle="tab" href="#nav-ecommerce" role="tab" aria-controls="nav-contact1" aria-selected="false">ECOMMERCE</a>
+                                <a class="nav-item  nav-link" id="nav-marketing-tab" data-toggle="tab" href="#nav-marketing" role="tab" aria-controls="nav-contact1" aria-selected="false">MARKETING</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" >
+                            <div class="tab-pane fade show active" id="hosting" role="tabpanel" aria-labelledby="nav-hosting-tab">
+                               <div class="row pt-5">
+                                   <div class="col-md-4 pt-4"><img src="IMG/host.png" height="200" width="320"/></div>
+                                   <div class="col-md-8">
+                                       <h3 class="text-primary font-weight-bold " ><a href="">SSD Web Hosting:</a></h3>
+                                       <p class="text-justify">Web Host BD helps to host your personal website, professional website, e-commerce site, blogging site and business websites securely with best web hosting company in Bangladesh. You can get all kinds of web hosting from us. We provide SSD shared web hosting, Virtual Private Server (VPS), Dedicated server. We have USA based latest hosting server with highest up time guarantee. We provide best quality SSD web hosting in Bangladesh on strong web hosting servers with great customer support team. We always work for our clients and we continue to deliver the best web hosting solutions for our clients.</p>
+                                       <a class="btn btn-outline-light px-5 " href="">Learn More</a>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="tab-pane  fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-domain-tab">
+                                <div class="row pt-5">
+                                    <div class="col-md-4 pt-4"><img src="IMG/host2.png" height="200" width="320"/></div>
+                                    <div class="col-md-8">
+                                        <h3 class="text-primary font-weight-bold " ><a href="">Domain Registration:</a></h3>
+                                        <p class="text-justify"><small>Web Host BD provides domain registration service in Bangladesh and worldwide. When you purchase a domain from us. We provide your domain full maintenance control panel so that you can control it freely. You have to register our site to buy a domain form us. After registering our site, you will get a control panel. Your domain name is your online unique identity for your personal or business purpose. So we suggest you to choose a domain name wisely for your business or personal use or any others needs. Also we suggest a best domain hosting company for you. If you buy a domain from us. You can get web hosting in Bangladesh from us. Check your domain name availability that you want to register and buy it by registering our website or transfer your domain to us. Domain Registration as low as Tk. 950/- per year. Your domain name is registered instantly! Each Domain Registration comes with Lots of free features and your own maintenance control panel. You can Register any top level domain with us including .com .net .org, .info .us .biz .ws .mobi .tv etc and many more.</small></p>
+                                        <a class="btn btn-outline-light px-5 " href="">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-website" role="tabpanel" aria-labelledby="nav-website-tab">
+                                <div class="row pt-5">
+                                    <div class="col-md-4 pt-4"><img src="IMG/host3.png" height="200" width="320"/></div>
+                                    <div class="col-md-8">
+                                        <h3 class="text-primary ">Website Design:</h3>
+                                        <p class="text-justify">Web Host BD helps to host your personal website, professional website, e-commerce site, blogging site and business websites securely with best web hosting company in Bangladesh. You can get all kinds of web hosting from us. We provide SSD shared web hosting, Virtual Private Server (VPS), Dedicated server. We have USA based latest hosting server with highest up time guarantee. We provide best quality SSD web hosting in Bangladesh on strong web hosting servers with great customer support team. We always work for our clients and we continue to deliver the best web hosting solutions for our clients.</p>
+                                        <a class="btn btn-outline-light px-5 " href="">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-ecommerce" role="tabpanel" aria-labelledby="nav-marketing-tab">
+                                <div class="row pt-5">
+                                    <div class="col-md-4 pt-4"><img src="IMG/host4.png" height="200" width="320"/></div>
+                                    <div class="col-md-8">
+                                        <h3 class="text-primary ">eCommerce web design and unlimited web hosting.</h3>
+                                        <p class="text-justify">We provide support for eCommerce business. We design eCommerce website. We help to promote your eCommerce business online. You can get Facebook marketing help form us. You can get google advertising service form us. All kind of eCommerce service you can get from us.</p>
+                                        <a class="btn btn-outline-light px-5 " href="">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-marketing" role="tabpanel" aria-labelledby="nav-marketing-tab">
+                                <div class="row pt-5">
+                                    <div class="col-md-4 pt-4"><img src="IMG/host5.png" height="200" width="320"/></div>
+                                    <div class="col-md-8">
+                                        <h3 class="text-primary ">We provide online paid marketing service.</h3>
+                                        <p class="text-justify">We provide online paid marketing service for our clients. If you want to promote your business online. We will help you to promote your business online platform. We will promote your business Facebook and Google.</p>
+                                        <a class="btn btn-outline-light px-5 " href="">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+<!--payment method-->
+    <hr class="py-0"/>
+    <hr class="py-0"/>
+
+    <section id="payment_method">
+        <div class="my-container">
+            <div class="my-row">
+                <div class="col-md-4">
+                    <img src="IMG/dekstop.png" height="300" width="300" CLASS="img-fluid d-lg-block d-md-block d-none"/>
+                </div>
+                <div class="col-md-8 col-sm-12 pb-4">
+                    <h3 class="text-primary text-center pt-4">OUR PAYMENT METHOD. YOU CAN PAY US EASILY !</h3>
+                    <div class="row pt-4">
+                        <div class="col-md-12 pb-3">
+                            <img class="payment_border" src="IMG/bkash5.jpg" height="80" width="160"/>
+                            <img class="payment_border" src="IMG/dbbl.png" height="80" width="160" />
+                            <img class="payment_border" src="IMG/skrill.jpg" height="80" width="160" />
+                            <img class="payment_border" src="IMG/brac.jpg" height="80" width="160" />
+                        </div>
+                        <div class="col-md-12 d-none d-md-block d-lg-block">
+                            <img class="payment_border" src="IMG/bkash5.jpg" height="80" width="160"/>
+                            <img class="payment_border" src="IMG/dbbl.png" height="80" width="160" />
+                            <img class="payment_border" src="IMG/skrill.jpg" height="80" width="160" />
+                            <img class="payment_border" src="IMG/brac.jpg" height="80" width="160" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="py-0"/>
+    <hr class="py-0"/>
+    <!--end payment method-->
+
+
+    <!--help bottom section-->
+    <section id="help-bottom-section">
+        <div class="my-container">
+            <div class="my-row py-2">
+                <div class="col-md-6">
+                    <p class="pt-3"><strong>NEED HELP?</strong> CALL US NOW:</p>
+                    <h2 class="text-light">8801928907224</h2>
+                </div>
+                <div class="col-md-6  ">
+                    <label class="text-light   "><small>FIND YOUR PERFECT DOMAIN NAME :</small></label>
+                    <form class="form-inline  justify-content-between" action="" method="post">
+                        <input class="mx-md-0 3 mx-sm-0     form-control form-control-lg" type="search" placeholder="Please enter your email" name="search" style="width: 400px " >
+                        <input type="submit" name="btn" value="SEARCH" CLASS="btn btn-primary  form-control  form-control-lg   ml-md-2 ml-lg-0  ">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer top-->
+    <footer id="footer-top">
+        <div class="my-container">
+            <div class="my-row py-5">
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <h4 class="font-weight-bold text-success">Hosting Packages </h4>
+                        </div>
+                        <div class="col-md-12">
+                           <ul class="navbar-nav ">
+                               <li><a class="nav-link text-light py-0" href=""><small>Web Hosting</small></a></li>
+                               <li><a class="nav-link text-light py-0" href=""><small>Premium Hosting</small></a></li>
+                               <li><a class="nav-link text-light py-0" href=""><small>Reseller Hosting</small></a></li>
+                               <li><a class="nav-link text-light py-0" href=""><small>Master Reseller Hosting</small></a></li>
+                               <li><a class="nav-link text-light py-0" href=""><small>VPS Hosting</small></a></li>
+                               <li><a class="nav-link text-light py-0" href=""><small>Dedicated Servers</small></a></li>
+                               <li><a class="nav-link text-light py-0" href=""><small>Cloud Hosting</small></a></li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--service-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12 text-success">
+                            <h4 class="font-weight-bold text-success">Our Services</h4>
+
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="navbar-nav ">
+                                <li><a class="nav-link text-light py-0" href=""><small>Domain Registration</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Web Hosting</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Web Design</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Web Development</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Website Migration</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Business Email</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--web host bd-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="font-weight-bold text-success">Web Host BD</h4>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="navbar-nav ">
+                                <li><a class="nav-link text-light py-0" href=""><small>About Us</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Contact Us</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>News/Blog</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Payment Methods</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Awards & Reviews</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Testimonials</small></a></li>
+                                <li><a class="nav-link text-light py-0" href=""><small>Affiliate Program</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12 text-success">
+                            <h4 class="font-weight-bold text-success">Our Address</h4>
+                        </div>
+                        <div class="col-md-12 text-light">
+                            <small> 42/2, Kallyanpur Main Road<br/>
+                                Mirpur, Dhaka-1207</small>
+                            <small>
+                                Phone: +88 01799771177<br/>
+                                +88 01912310191
+                            </small>
+                            <small>
+                                webhostbd.net@gmail.com<br/>
+                                admin@webhostbd.com
+                            </small>
+                            <div class="">
+                                <a href=""><i class="text-primary rounded-circle fab fa-facebook"></i></a>
+                               <a href=""><i class="text-danger rounded-circle fab  fa-youtube"></i></a>
+                               <a href=""><i class="text-primary rounded-circle fab fa-twitter"></i></a>
+                               <a href=""><i class=" text-primary rounded-circle fab fa-linkedin"></i></a>
+                               <a href=""> <i class="text-danger rounded-circle fab fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-right pr-5  display-4"><a href="#" class="top"><i class="text-light fas fa-arrow-circle-up"></i></a></p>
+        </div>
+    </footer>
+
+    <!--footer bottom-->
+    <footer class="bg-dark" id="footer-bottom">
+        <div class="my-container">
+            <div class="my-row py-2">
+                <div class="col-8 text-light">Copyright &copy; 2018-2019 Binary Coders - All rights reserved. <small class="text-warning">Desinged& Developed By <a href="https://www.facebook.com/azizulhasan1995" target="_blank" class="text-light">Azizul Hasan</a></small></div>
+                <div class="col-4">
+                    <a href="" class="text-light">Terms of Service	 </a>
+                    <a href="" class="text-light"> | Privacy Policy	</a>
+                    <a href="" class="text-light"> | Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/jquery-3.3.1.js"></script>
+    <script src="JS/bootstrap.js"></script>
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/uikit.min.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/script1.js"></script>
+    <script src="JS/java.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+.margin-top{
+    margin-top: 170px;
+}
+.bg-image{
+    background-image: url("../images/mainslider.png");
+}
+.search{
+    margin-left:100px;
+}
+.s-btn{
+    margin-left: 15px;
+}
+.menu-margin{
+    margin-left: 70px;
+}
+.logo{
+    margin-left: 60px;
+}
+.video-caption{
+    margin-top: -200px;
+
+}
+.bg-colour{
+    background-color:#271E1B;
+}
+.number{
+    font-size: 40px;
+}
+.border-customize{
+    border-bottom: 2px solid #C7B299;
+    width: 80px;
+    margin: 0 auto;
+}
+.border-customize1{
+    border-bottom: 2px solid #FFFFFF;
+    width: 50px;
+    margin: 0 auto;
+}
